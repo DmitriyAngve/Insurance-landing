@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 5.333333492279053px 40px 0px #00000040;
+
+  z-index: 999;
+  position: relative;
+  height: 9.6rem;
+  width: 1920px;
+  /* Sticky header */
+  /* height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative; */
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-list:link,
+.main-nav-list:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #435cac;
+}
+
+.main-nav-link {
+  text-decoration: none;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #435cac;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  color: #364abb;
+}
+
+.nav-btn {
+  /* padding: 1.4rem 0.4rem;
+  border-radius: 7.55px;
+  color: #435cac; */
+  height: 44.067115783691406px;
+  width: 141.0147705078125px;
+  left: 320px;
+  top: 26px;
+  border-radius: 7.5543622970581055px;
+}
+
+/* HERO SECTION */
+
+.section-hero {
+  background-color: #edeeff;
+  padding: 4.8rem 0 9.6rem 0;
+}
