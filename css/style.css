@@ -8,6 +8,7 @@
   gap: 8rem; */
   /* max-width: 100%; */
   position: relative;
+  /* margin: 0 auto; */
 }
 
 .logo {
@@ -65,12 +66,18 @@
   background-color: #435cac;
 }
 
+.number {
+  /* padding: 0 auto; */
+  display: inline-block;
+}
+
 .nav-cta {
   color: #ffffff;
   background-color: #2e46cd;
   clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
   text-decoration: underline;
   display: inline-block;
+  font-size: 1.2rem;
 }
 
 .nav-cta:hover,
@@ -79,12 +86,16 @@
   background-color: #2e46cd;
 }
 
-.number {
-}
-
 /* HERO SECTION */
 
 .section-hero {
   background-color: #edeeff;
   padding: 4.8rem 0 9.6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainpage-title {
+  text-align: center;
 }
