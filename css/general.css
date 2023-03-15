@@ -65,23 +65,28 @@ buttons: 7.04px
 
 */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: "Mulish", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
-  /* Only works if there is nothing absolutely positioned in relation to body  */
   overflow-x: hidden;
 }
+
+/* .container {
+  max-width: 120rem;
+} */
