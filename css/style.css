@@ -4,12 +4,10 @@
   align-items: center;
   background-color: #ffffff;
   box-shadow: 0px 5.33px 4rem 0px rgba(0, 0, 0, 0.25);
+  /* height: 6rem;
+  gap: 8rem; */
+  /* max-width: 100%; */
   position: relative;
-  height: 6rem;
-  gap: 8rem;
-  max-width: 100%;
-  font-size: 1.6rem;
-  text-align: right;
 }
 
 .logo {
@@ -21,7 +19,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4rem;
 }
 
 .main-nav-list:link,
@@ -33,7 +31,7 @@
 
 .main-nav-link {
   text-decoration: none;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .main-nav-link:hover,
@@ -43,8 +41,9 @@
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: 2.2rem 4rem;
+  padding: 2.2rem 5rem;
   position: relative;
+  /* text-align: end; */
 }
 
 /* .main-nav-link.nav-cta:hover,
@@ -57,7 +56,7 @@
   border: 0.1rem solid #364abb;
   border-radius: 0.76rem;
   color: #435cac;
-  /* display: block; */
+  display: block;
 }
 
 .nav-btn:hover,
@@ -71,12 +70,16 @@
   background-color: #2e46cd;
   clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
   text-decoration: underline;
+  display: inline-block;
 }
 
 .nav-cta:hover,
 .nav-cta:active {
   color: #553030;
   background-color: #2e46cd;
+}
+
+.number {
 }
 
 /* HERO SECTION */
