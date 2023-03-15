@@ -54,14 +54,17 @@
 }
 
 .nav-btn {
-  /* padding: 1.4rem 0.4rem;
+  padding: 0.8rem 0.6rem;
+  border: 0.1px solid #364abb;
   border-radius: 7.55px;
-  color: #435cac; */
-  height: 44.067115783691406px;
-  width: 141.0147705078125px;
-  left: 320px;
-  top: 26px;
-  border-radius: 7.5543622970581055px;
+  color: #435cac;
+  display: block;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+  color: #ffffff;
+  background-color: #435cac;
 }
 
 /* HERO SECTION */
