@@ -101,17 +101,40 @@
   align-items: center;
 }
 
-.line {
+.blueline {
   text-align: left;
+  width: 25%;
 }
 
-.blueline {
-  display: inline-block;
+.heading {
+  color: #3462ec;
+}
+
+.heading-primary {
+  /* margin-top: 3.5rem;
+  margin-bottom: 5.5rem; */
+  margin: 3.5rem 0 0 5.5rem;
+  /* text-align: center; */
+
+  font-family: "Murecho", sans-serif;
+  font-size: 7rem;
+  font-weight: 800;
 }
 
 /* padding: 0 3.2rem; */
 .hero-description {
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.6;
-  margin-bottom: 4.8rem;
+  margin: 3.5rem 0 0 5.5rem;
+  /* text-align: center; */
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  border: 0.1rem solid #364abb;
+  border-radius: 0.76rem;
+  color: #435cac;
+
+  /* margin: 3.5rem 0 0 5.5rem; */
+  /* display: block; */
 }
