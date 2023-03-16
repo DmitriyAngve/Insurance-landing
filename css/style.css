@@ -64,20 +64,18 @@
   background-color: #435cac;
 }
 
-.cta {
-  display: flex;
-  justify-content: end;
-  align-items: flex-end;
+.number {
+  padding: 2.2rem 5rem;
+  background-color: #2e46cd;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .nav-cta {
-  color: #ffffff;
-  background-color: #2e46cd;
-  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
   text-decoration: underline;
+  color: #ffffff;
   display: inline-block;
-  font-size: 1.2rem;
-  text-align: end;
+  font-size: 1.6rem;
+  margin-left: 3rem;
 }
 
 .nav-cta:hover,
