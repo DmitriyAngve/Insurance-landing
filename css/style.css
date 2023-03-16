@@ -75,7 +75,7 @@
   color: #ffffff;
   display: inline-block;
   font-size: 1.6rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 .nav-cta:hover,
@@ -89,11 +89,20 @@
 .section-hero {
   background-color: #edeeff;
   padding: 4.8rem 0 9.6rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.mainpage-title {
-  text-align: center;
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center; */
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
