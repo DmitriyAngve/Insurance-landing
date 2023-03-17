@@ -143,3 +143,40 @@
   border: 0.15rem solid #333;
   color: #333;
 }
+
+.figures {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.yellowCross {
+  /* width: 3.3rem; */
+  justify-self: center;
+  margin-top: 0.5rem;
+  /* margin-right: 25rem; */
+}
+
+.bigTriangle {
+  grid-column-start: 2;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  /* width: 6.6rem; */
+  transform: rotate(180deg);
+  margin-right: 25rem;
+}
+
+.smallTriangle {
+  /* width: 3.3rem; */
+  margin-top: 5rem;
+}
+
+.cross {
+  width: 3.3rem;
+}
+
+.triangle {
+  width: 3.3rem;
+}
