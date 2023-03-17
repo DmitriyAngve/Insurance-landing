@@ -92,6 +92,10 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
+.line {
+  width: 40%;
+}
+
 .hero {
   margin: 0 auto;
   display: grid;
@@ -102,7 +106,6 @@
 
 .blueline {
   text-align: left;
-  width: 40%;
 }
 
 .hero-text-box {
@@ -152,25 +155,38 @@
 }
 
 .yellowCross {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   /* width: 3.3rem; */
   justify-self: center;
   margin-top: 0.5rem;
-  /* margin-right: 25rem; */
+  background-color: #221f1f;
+  display: inline;
 }
 
 .bigTriangle {
   grid-column-start: 2;
-  grid-column-end: 1;
+  grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 1;
-  /* width: 6.6rem; */
+  grid-row-end: 3;
+  /* grid-column: 1 / 2;
+  grid-row: 1 / 2; */
+  width: 100%;
   transform: rotate(180deg);
   margin-right: 25rem;
+  /* background-color: #553030; */
+  display: inline;
 }
 
 .smallTriangle {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   /* width: 3.3rem; */
   margin-top: 5rem;
+  display: inline-block;
+  background-color: #912c2c;
 }
 
 .cross {
@@ -179,4 +195,12 @@
 
 .triangle {
   width: 3.3rem;
+}
+
+.phone {
+  margin-left: 35rem;
+  margin-bottom: 10rem;
+}
+.smartphone {
+  width: 50%;
 }
