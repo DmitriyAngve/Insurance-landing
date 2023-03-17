@@ -93,18 +93,20 @@
 }
 
 .hero {
-  /* max-width: 130rem; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr;  */
   gap: 4rem;
   align-items: center;
 }
 
 .blueline {
   text-align: left;
-  width: 25%;
+  width: 40%;
+}
+
+.hero-text-box {
+  margin: 3.5rem 0 0 10.5rem;
 }
 
 .heading {
@@ -112,38 +114,29 @@
 }
 
 .heading-primary {
-  /* margin-top: 3.5rem;
-  margin-bottom: 5.5rem; */
-  margin: 3.5rem 0 0 5.5rem;
-  /* text-align: center; */
-
-  font-family: "Murecho", sans-serif;
-  font-size: 7rem;
+  font-size: 7.3rem;
   font-weight: 800;
 }
 
-/* padding: 0 3.2rem; */
 .hero-description {
   font-size: 2.5rem;
   line-height: 1.6;
-  margin: 3.5rem 0 0 5.5rem;
-  /* text-align: center; */
+  margin: 5.5rem 0 5.5rem 0;
 }
 
 .hero-btn {
   padding: 0.8rem 2rem;
   border-radius: 0.76rem;
+  font-weight: 600;
   text-decoration: none;
-  margin: 3.5rem 0 0 5.5rem;
+  font-size: 2.4rem;
 }
 
 .btn-blue {
   border: 0.15rem solid #364abb;
   color: #edeeff;
   background-color: #2e46cd;
-
-  /* margin: 3.5rem 0 0 5.5rem; */
-  /* display: block; */
+  margin-right: 3.5rem;
 }
 
 .btn-white {
