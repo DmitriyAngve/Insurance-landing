@@ -170,22 +170,9 @@
   width: 3.3rem;
 }
 
-.hero-img-positions {
-  position: relative;
-}
-
-.hero-img-box-phone {
-  /* margin-left: 35rem;
-  margin-bottom: 10rem; */
-  position: absolute;
-  bottom: -40rem;
-  right: 10rem;
-}
-
-.hero-img-box-line {
-  position: absolute;
-  bottom: 10rem;
-  right: 10rem;
+.phone {
+  margin-left: 35rem;
+  margin-bottom: 10rem;
 }
 
 .smartphone {
@@ -195,8 +182,8 @@
 }
 
 .hero-img-line {
-  /* float: right; */
-  /* margin-bottom: 10rem; */
+  float: right;
+  margin-bottom: 10rem;
 }
 
 .yellowLine {
