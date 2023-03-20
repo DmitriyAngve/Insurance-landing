@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  height: 9.6rem;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
@@ -78,11 +79,11 @@
 
 .section-hero {
   background-color: #edeeff;
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 9.1rem 0 9.6rem 0;
 }
 
 .line {
-  width: 40%;
+  /* width: 40%; */
   margin-bottom: -15rem;
 }
 
@@ -94,7 +95,7 @@
   align-items: center;
 }
 
-.blueline {
+.blueLine {
   text-align: left;
 }
 
@@ -135,6 +136,8 @@
 .btn-white {
   border: 0.15rem solid #333;
   color: #333;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .figures {
@@ -167,11 +170,35 @@
   width: 3.3rem;
 }
 
-.phone {
-  margin-left: 35rem;
-  margin-bottom: 10rem;
+.hero-img-positions {
+  position: relative;
+}
+
+.hero-img-box-phone {
+  /* margin-left: 35rem;
+  margin-bottom: 10rem; */
+  position: absolute;
+  bottom: -40rem;
+  right: 10rem;
+}
+
+.hero-img-box-line {
+  position: absolute;
+  bottom: 10rem;
+  right: 10rem;
 }
 
 .smartphone {
-  width: 50%;
+  /* width: 50%; */
+  width: 50.3rem;
+  height: 70.5rem;
+}
+
+.hero-img-line {
+  /* float: right; */
+  /* margin-bottom: 10rem; */
+}
+
+.yellowLine {
+  /* margin-left: 35rem; */
 }
