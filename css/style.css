@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  height: 9rem;
+  height: 9.6rem;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
@@ -56,7 +56,7 @@
 }
 
 .number {
-  padding: 3.8rem 10rem;
+  padding: 4rem 10rem;
   background-color: #2e46cd;
   clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
 }
@@ -84,7 +84,8 @@
 
 .line {
   /* width: 40%; */
-  margin-bottom: -12rem;
+  position: absolute;
+  /* margin-bottom: -12rem; */
 }
 
 .hero {
@@ -105,6 +106,7 @@
 
 .heading {
   color: #3462ec;
+  margin-top: 15rem;
 }
 
 .heading-primary {
@@ -173,8 +175,8 @@
 }
 
 .smartphone {
-  width: 44rem;
-  height: 65rem;
+  width: 50rem;
+  height: 70rem;
 }
 
 .hero-img-line {
