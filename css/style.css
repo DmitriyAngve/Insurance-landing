@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  height: 9.6rem;
+  height: 9rem;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
@@ -56,7 +56,7 @@
 }
 
 .number {
-  padding: 4rem 10rem;
+  padding: 3.8rem 10rem;
   background-color: #2e46cd;
   clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
 }
@@ -83,9 +83,7 @@
 }
 
 .line {
-  /* width: 40%; */
   position: absolute;
-  /* margin-bottom: -12rem; */
 }
 
 .hero {
@@ -104,12 +102,12 @@
   margin: 3.5rem 0 0 10.5rem;
 }
 
-.heading {
+.hero-heading {
   color: #3462ec;
   margin-top: 15rem;
 }
 
-.heading-primary {
+.primary-heading {
   font-size: 7.3rem;
   font-weight: 800;
 }
@@ -175,8 +173,8 @@
 }
 
 .smartphone {
-  width: 50rem;
-  height: 70rem;
+  width: 48rem;
+  height: 68rem;
 }
 
 .hero-img-line {
@@ -187,5 +185,6 @@
   left: 173rem;
 }
 
-.yellowLine {
+.section-services {
+  display: grid;
 }
