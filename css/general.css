@@ -68,7 +68,7 @@ buttons: 7.04px
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   box-sizing: border-box;
 }
 
@@ -86,9 +86,10 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   font-size: 1.6rem;
-  width: 100%;
+  /* width: 100%; */
+  /* height: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: hidden; */
 }
 
 /* .container {

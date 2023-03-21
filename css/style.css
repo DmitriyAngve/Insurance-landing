@@ -140,13 +140,13 @@
   padding-right: 6rem;
 }
 
-.figures {
+.hero-figures {
   margin-top: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.figures-left {
+.hero-figures-left {
   display: flex;
   flex-direction: column;
 }
@@ -186,5 +186,19 @@
 }
 
 .services {
+  background: #6379f1;
   display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-img-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle {
+  width: 15%;
+  height: 15%;
+  text-align: right;
 }
