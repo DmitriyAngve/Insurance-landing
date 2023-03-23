@@ -308,13 +308,38 @@
 }
 
 .support-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f7ff,
+    #f1f0ff,
+    #e9e9ff,
+    #e0e2ff
+  );
 }
 
-.support-bottom {
+.support-text-box {
+  display: flex;
+  flex-direction: column;
 }
 
 .figures-top {
 }
 
 .top-bluredFigure {
+}
+
+.support-img-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.support-bottom {
+  display: flex;
+  background-color: #6379f1;
+  /* height: 37.5rem; */
 }
