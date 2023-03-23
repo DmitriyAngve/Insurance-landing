@@ -188,6 +188,8 @@
   left: 173rem;
 }
 
+/* SERVICES SECTION */
+
 .section-services {
   height: 97rem;
   background: #6379f1;
@@ -295,4 +297,24 @@
 .whiteCircle {
   width: 6rem;
   height: 6rem;
+}
+
+/* SUPPORT SECTION */
+
+.section-support {
+  height: 134rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.support-top {
+}
+
+.support-bottom {
+}
+
+.figures-top {
+}
+
+.top-bluredFigure {
 }
