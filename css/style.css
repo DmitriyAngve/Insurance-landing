@@ -169,7 +169,7 @@
 }
 
 .phone {
-  margin-left: 32rem;
+  margin-left: 40rem;
   margin-bottom: 10rem;
 }
 
@@ -183,7 +183,8 @@
   z-index: 10;
   position: absolute;
   top: 70rem;
-  left: 173rem;
+  left: 195rem;
+  /* left: 173rem; */
 }
 
 .services {
@@ -208,6 +209,10 @@
   width: 10.5rem;
   height: 7.7rem;
   margin-left: 60rem;
+  margin-top: -18rem;
+  /* position: absolute;
+  left: 55rem;
+  top: 97rem; */
 }
 
 .smartphone-2 {
@@ -225,4 +230,35 @@
 .smallCross {
   width: 3rem;
   height: 3rem;
+  margin-top: 5rem;
+}
+
+.services-line {
+  text-align: right;
+}
+
+.services-heading {
+  color: #ffffff;
+  text-align: right;
+  margin-right: 10rem;
+}
+
+.secondary-heading {
+  font-size: 7.3rem;
+  font-weight: 800;
+  padding-bottom: 10rem;
+}
+
+.services-description-first {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 7rem;
+  margin-left: 30rem;
+}
+
+.services-description-second {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 10rem;
+  margin-left: 30rem;
 }
