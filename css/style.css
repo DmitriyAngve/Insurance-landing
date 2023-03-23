@@ -302,7 +302,7 @@
 /* SUPPORT SECTION */
 
 .section-support {
-  height: 134rem;
+  height: 116rem;
   display: flex;
   flex-direction: column;
 }
@@ -348,7 +348,7 @@
   margin-bottom: 6.5rem;
 }
 
-.support-description {
+.support-text {
   color: #3551a4;
   font-weight: 500;
   font-size: 2.5rem;
@@ -399,7 +399,7 @@
   font-size: 2rem;
   color: #ffffff;
   background-color: #6379f1;
-  height: 37.5rem;
+  height: 34rem;
   z-index: 10;
 }
 
@@ -414,4 +414,27 @@
   border-top: solid 1px #ffffff;
   border-right: solid 1px #ffffff;
   border-top-right-radius: 2rem;
+}
+
+/* DESCRIPTION SECTION */
+
+.section-description {
+  /* background-image: url(images/background.png);
+  background-size: cover; */
+  background-image: url(/background.png);
+  background-size: cover;
+  height: 98rem;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+  margin-left: 10.5rem;
+  justify-content: center;
 }
