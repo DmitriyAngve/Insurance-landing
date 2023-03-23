@@ -189,11 +189,17 @@
 .services {
   background: #6379f1;
   display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
 }
 
 .services-img-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-text-box {
   display: flex;
   flex-direction: column;
 }
