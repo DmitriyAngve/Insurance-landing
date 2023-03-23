@@ -93,6 +93,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  /* height: 90.4rem; */
 }
 
 .blueLine {
@@ -169,7 +170,7 @@
 }
 
 .phone {
-  margin-left: 40rem;
+  margin-left: 32rem;
   margin-bottom: 10rem;
 }
 
@@ -183,12 +184,16 @@
   z-index: 10;
   position: absolute;
   top: 70rem;
-  left: 195rem;
-  /* left: 173rem; */
+  /* left: 195rem; */
+  left: 173rem;
+}
+
+.section-services {
+  height: 96rem;
+  background: #6379f1;
 }
 
 .services {
-  background: #6379f1;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
@@ -208,8 +213,8 @@
 .rectangle {
   width: 10.5rem;
   height: 7.7rem;
-  margin-left: 60rem;
-  margin-top: -18rem;
+  margin-left: 70rem;
+  margin-top: -8rem;
   /* position: absolute;
   left: 55rem;
   top: 97rem; */
@@ -217,8 +222,10 @@
 
 .smartphone-2 {
   /* from figma : 685px * 720px */
-  width: 54.8rem;
-  height: 57.6rem;
+  width: 68.5rem;
+  height: 72rem;
+  /* width: 54.8rem;
+  height: 57.6rem; */
 }
 
 .services-smallCross {
@@ -259,6 +266,30 @@
 .services-description-second {
   font-size: 2.5rem;
   font-weight: 500;
-  padding-bottom: 10rem;
-  margin-left: 30rem;
+  padding-bottom: 6rem;
+  margin-left: 20rem;
+}
+
+.services-yellowCircle {
+  text-align: end;
+  margin-right: 17rem;
+}
+
+.services-bigCross {
+  text-align: left;
+  margin-left: 22rem;
+}
+
+.bigCross {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+.services-whiteCircle {
+  margin-bottom: 10rem;
+}
+
+.whiteCircle {
+  width: 6rem;
+  height: 6rem;
 }
