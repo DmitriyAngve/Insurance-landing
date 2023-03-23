@@ -434,7 +434,31 @@
 .description-text-box {
   display: flex;
   flex-direction: column;
-  gap: 7.5rem;
-  margin-left: 10.5rem;
   justify-content: center;
+  gap: 7rem;
+  margin-left: 10.5rem;
+  margin-right: 12rem;
+  color: #ffffff;
+  line-height: 4rem;
+}
+
+.description-heading {
+  font-size: 7.3rem;
+  font-weight: 800;
+  margin-top: 10rem;
+}
+
+.description-text {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.description-img-box {
+  text-align: center;
+}
+
+.smartphone-4 {
+  width: 85.5rem;
+  height: 54rem;
+  margin: 21.5rem 10rem 21.5rem 10rem;
 }
