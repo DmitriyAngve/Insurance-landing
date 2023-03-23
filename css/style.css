@@ -312,6 +312,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
+  /* height: 97rem; */
   background-image: linear-gradient(
     to bottom,
     #ffffff,
@@ -327,10 +328,44 @@
   flex-direction: column;
 }
 
-.figures-top {
+.figure-top {
+  margin-bottom: 6rem;
 }
 
 .top-bluredFigure {
+  width: 14rem;
+  height: 35rem;
+}
+
+.support-heading {
+  margin-left: 10.5rem;
+}
+
+.tertiary-heading {
+  color: #021f78;
+  font-weight: 700;
+  font-size: 6.4rem;
+  margin-bottom: 6.5rem;
+}
+
+.support-description {
+  color: #3551a4;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-right: 15rem;
+}
+
+.figure-bottom {
+  /* margin-top: 5rem; */
+  /* position: absolute; */
+  /* top: 259.8rem; */
+  position: relative;
+  bottom: -2.2rem;
+}
+
+.bottom-bluredFigure {
+  width: 46rem;
+  height: 20rem;
 }
 
 .support-img-box {
@@ -338,8 +373,36 @@
   flex-direction: column;
 }
 
+.support-right-img {
+  text-align: right;
+  margin-bottom: 22rem;
+}
+
+.bluredCross {
+  width: 47rem;
+  height: 60rem;
+}
+
+.smartphone-3 {
+  width: 40rem;
+  height: 85rem;
+  position: absolute;
+  top: 200rem;
+  right: 20rem;
+}
+
 .support-bottom {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  color: #ffffff;
   background-color: #6379f1;
-  /* height: 37.5rem; */
+  height: 37.5rem;
+  z-index: 10;
+}
+
+.benefits {
+  /* margin-left: 10rem;
+  margin-right: 14rem; */
 }
