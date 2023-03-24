@@ -547,3 +547,18 @@
 }
 
 /* FOOTER SECTION */
+
+.section-footer {
+  height: 44rem;
+  background-color: #141e55;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+
+.call-background {
+  width: 4.4rem;
+  height: 4.4rem;
+}
