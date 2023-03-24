@@ -515,28 +515,34 @@
 }
 
 .moreQuestions {
+  display: inline-block;
+  text-decoration: underline;
   grid-column: -3 / -2;
+  color: #3462ec;
   grid-row: 3 / 4;
-  padding: 1.2rem 0.2rem;
-  margin: 0.8rem 3.5em;
-  border: 0.15rem solid #3462ec;
-  background-color: #3462ec;
-  color: #ffffff;
   text-align: center;
-  display: block;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
-.moreQuestions:hover,
-.moreQuestions:active {
-  background-color: #0040ff;
+.moreQuestions:hover {
+  background-color: #3462ec;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1.2rem 2rem;
+  margin: 1rem 2rem;
+  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.2rem;
 }
 
 .moreQuestions:link,
 .moreQuestions:visited {
-  background-color: #0040ff;
+  background-color: #3462ec;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1.2rem 2rem;
+  margin: 2rem 2em;
+  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.2rem;
 }
 
 /* MAKING A POLICY */
@@ -558,7 +564,7 @@
   grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
 }
 
-.call-background {
+/* .call-background {
   width: 4.8rem;
   height: 4.8rem;
-}
+} */
