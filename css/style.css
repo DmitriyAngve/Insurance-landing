@@ -484,14 +484,16 @@
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
-  gap: 7rem;
+  gap: 5rem;
   margin: 10rem 5rem 0 5rem;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 2.5rem;
 }
 
 .que-btn {
-  padding: 4rem 1.6rem;
+  max-height: 12rem;
+  min-height: 12rem;
+  padding: 3rem 1.6rem;
   border: 0.15rem solid #3462ec;
   border-radius: 2.1rem;
   background-color: #3462ec;
@@ -515,8 +517,8 @@
 .moreQuestions {
   grid-column: -3 / -2;
   grid-row: 3 / 4;
-  padding: 2rem 0.8rem;
-  margin: 0.8rem 2.4em;
+  padding: 1.2rem 0.2rem;
+  margin: 0.8rem 3.5em;
   border: 0.15rem solid #3462ec;
   background-color: #3462ec;
   color: #ffffff;
@@ -536,3 +538,12 @@
 .moreQuestions:visited {
   background-color: #0040ff;
 }
+
+/* MAKING A POLICY */
+
+.section-policy {
+  background-color: #e0e2ff;
+  height: 75rem;
+}
+
+/* FOOTER SECTION */
