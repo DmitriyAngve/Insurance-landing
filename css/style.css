@@ -581,7 +581,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 5rem;
   margin: 10rem 5rem 0 5rem;
   font-size: 2.2rem;
