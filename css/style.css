@@ -478,7 +478,7 @@
   margin-top: 7rem;
 }
 
-.questions {
+/* .questions {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -519,14 +519,14 @@
   background-color: #0040ff;
 }
 
-/* Clickable button */
+
 .drop {
   position: relative;
   display: block;
 }
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   min-height: 12rem;
   padding: 3rem 1.6rem;
   border: 0.15rem solid #3462ec;
@@ -535,14 +535,13 @@
   color: #ffffff;
   box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
   z-index: 1;
-  align-items: center;
-  justify-content: center;
 }
 
 .show {
   display: block;
+  position: absolute;
 }
-/* Clickable button */
+
 
 .moreQuestions {
   display: inline-block;
@@ -573,6 +572,67 @@
   margin: 2rem 2em;
   box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
   border-radius: 1.2rem;
+} */
+
+.questions {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 10rem 5rem 0 5rem;
+  font-size: 2.2rem;
+}
+
+.column {
+}
+
+/* Style the columns */
+.question {
+  /* flex: 1;
+  padding: 10px; */
+  /* margin-left: 40rem; */
+}
+
+/* Style the buttons */
+.que-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+/* Style the content */
+.content {
+  background-color: #f9f9f9;
+  padding: 16px;
+  margin-top: 0;
+  display: none;
+  animation: slideDown 0.5s ease-out;
+}
+
+/* Show the content when the button is clicked */
+.que-btn:focus + .content {
+  display: block;
+}
+
+/* Slide the content down */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* MAKING A POLICY */
