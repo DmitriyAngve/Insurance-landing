@@ -617,7 +617,7 @@
   padding: 2.8rem;
   margin-top: -1.6rem;
   display: none;
-  animation: slideDown 0.5s ease-out;
+  animation: slideDown 0.2s ease-out;
   border-bottom: 1px solid #021f78;
   border-left: 1px solid #021f78;
   border-right: 1px solid #021f78;
@@ -634,7 +634,7 @@
 @keyframes slideDown {
   from {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-0.2rem);
   }
   to {
     opacity: 1;
