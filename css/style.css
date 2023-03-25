@@ -607,15 +607,22 @@
   cursor: pointer;
   width: 100%;
   text-align: center;
+  border: 1px solid #021f78;
+  border-radius: 2.1rem;
 }
 
 /* Style the content */
 .content {
   background-color: #f9f9f9;
-  padding: 16px;
-  margin-top: 0;
+  padding: 2.8rem;
+  margin-top: -1.6rem;
   display: none;
   animation: slideDown 0.5s ease-out;
+  border-bottom: 1px solid #021f78;
+  border-left: 1px solid #021f78;
+  border-right: 1px solid #021f78;
+  border-bottom-left-radius: 2.1rem;
+  border-bottom-right-radius: 2.1rem;
 }
 
 /* Show the content when the button is clicked */
