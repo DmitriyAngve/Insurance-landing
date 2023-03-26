@@ -357,9 +357,6 @@
 }
 
 .figure-bottom {
-  /* margin-top: 5rem; */
-  /* position: absolute; */
-  /* top: 259.8rem; */
   position: relative;
   bottom: -2.2rem;
   left: 40rem;
@@ -405,16 +402,14 @@
 }
 
 .benefits {
-  /* margin-left: 10rem;
-  margin-right: 14rem; */
   margin-top: 10rem;
-  margin-bottom: 8.5rem;
+  margin-bottom: 5rem;
   max-width: 28.5rem;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-right: 3.5rem;
   border-top: solid 1px #ffffff;
   border-right: solid 1px #ffffff;
-  border-top-right-radius: 2rem;
+  border-top-right-radius: 2.1rem;
 }
 
 /* DESCRIPTION SECTION */
@@ -467,7 +462,7 @@
 /* QUESTIONS SECTION */
 
 .section-questions {
-  height: 96rem;
+  height: 112rem;
 }
 
 .questions-heading {
@@ -475,105 +470,8 @@
   font-size: 7.3rem;
   font-weight: 800;
   color: #3462ec;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
-
-/* .questions {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-  margin: 10rem 5rem 0 5rem;
-  font-size: 2.2rem;
-}
-
-.question {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 2.5rem;
-}
-
-.que-btn {
-  max-height: 12rem;
-  min-height: 12rem;
-  padding: 3rem 1.6rem;
-  border: 0.15rem solid #3462ec;
-  border-radius: 2.1rem;
-  background-color: #3462ec;
-  color: #ffffff;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
-.que-btn:hover,
-.que-btn:active {
-  background-color: #0040ff;
-}
-
-.que-btn:link,
-.que-btn:visited {
-  background-color: #0040ff;
-}
-
-
-.drop {
-  position: relative;
-  display: block;
-}
-
-.dropdown-content {
-  display: none;
-  position: relative;
-  min-height: 12rem;
-  padding: 3rem 1.6rem;
-  border: 0.15rem solid #3462ec;
-  border-radius: 2.1rem;
-  background-color: #3462ec;
-  color: #ffffff;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  z-index: 1;
-}
-
-.show {
-  display: block;
-  position: absolute;
-}
-
-
-.moreQuestions {
-  display: inline-block;
-  text-decoration: underline;
-  grid-column: -3 / -2;
-  color: #3462ec;
-  grid-row: 3 / 4;
-  text-align: center;
-  transition: all 0.3s;
-}
-
-.moreQuestions:hover {
-  background-color: #3462ec;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 1.2rem 2rem;
-  margin: 1rem 2rem;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  border-radius: 1.2rem;
-}
-
-.moreQuestions:link,
-.moreQuestions:visited {
-  background-color: #3462ec;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 1.2rem 2rem;
-  margin: 2rem 2em;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  border-radius: 1.2rem;
-} */
 
 .questions {
   display: grid;
@@ -581,8 +479,8 @@
   grid-template-rows: repeat(3, auto);
   grid-auto-rows: minmax(0, 1fr);
   justify-content: center;
-  gap: 5rem;
-  margin: 10rem 5rem 0 5rem;
+  gap: 4rem;
+  margin: 5rem 5rem 0 5rem;
   font-size: 2.2rem;
 }
 
@@ -599,6 +497,7 @@
   box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 2.1rem;
+  transition: all 0.5s;
 }
 
 .que-btn:hover {
@@ -619,6 +518,7 @@
   background-color: #648bff;
   color: #ffffff;
   padding: 2.8rem;
+  line-height: 2.5rem;
   margin-top: -1.6rem;
   border-bottom-left-radius: 2.1rem;
   border-bottom-right-radius: 2.1rem;
@@ -640,6 +540,69 @@
     transform: translateY(0);
   }
 }
+
+.moreQuestions {
+  display: inline-block;
+  grid-row: 4 / 4;
+  grid-column: -3 / -2;
+  padding: 2rem 2rem;
+  border-radius: 2.1rem;
+  text-align: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.showMore {
+  text-decoration: underline;
+}
+
+.moreQuestions > a {
+  color: #333;
+}
+
+.moreQuestions:hover {
+  background-color: #3462ec;
+  color: #fff;
+  padding: 2.4rem 2.4rem;
+}
+
+.moreQuestions:link,
+.moreQuestions:visited {
+  background-color: #3462ec;
+  color: #fff;
+  padding: 2.4rem 2.4rem;
+}
+/* .moreQuestions {
+  display: inline-block;
+  grid-row: 4 / 4;
+  grid-column: -3 / -2;
+  padding: 2rem 2rem;
+  border-radius: 2.1rem;
+  text-align: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.showMore {
+  text-decoration: underline;
+}
+
+.moreQuestions > a {
+  color: #333;
+}
+
+.moreQuestions:hover {
+  background-color: #3462ec;
+  color: #fff ;
+  padding: 2.4rem 2.4rem;
+}
+
+.moreQuestions:link,
+.moreQuestions:visited {
+  background-color: #3462ec;
+  color: #fff;
+  padding: 2.4rem 2.4rem;
+} */
 
 /* MAKING A POLICY */
 

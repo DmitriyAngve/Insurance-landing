@@ -5,6 +5,6 @@ buttons.forEach((button) => {
   });
 });
 
-const yearEl = document.querySelector(".year");
+const year = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
-yearEl.textContent = currentYear;
+year.textContent = currentYear;
