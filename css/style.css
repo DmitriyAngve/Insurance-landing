@@ -488,8 +488,10 @@
   font-family: "Mulish", sans-serif;
   line-height: 2.5rem;
   font-weight: 400;
-  font-size: 2rem;
-  min-height: 8rem;
+  font-size: 2.2rem;
+  min-height: 9rem;
+  max-height: 9rem;
+  padding: 0.4rem;
   width: 100%;
   background-color: #3462ec;
   color: #ffffff;
@@ -497,33 +499,30 @@
   box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 2.1rem;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 .que-btn:hover {
   background-color: #0040ff;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  border-radius: 2.1rem;
 }
 
 .que-btn:focus,
 .que-btn:link,
 .que-btn:active {
   background-color: #0040ff;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  border-radius: 2.1rem;
 }
 
 .content {
+  display: none;
   background-color: #648bff;
   color: #ffffff;
   padding: 2.8rem;
   line-height: 2.5rem;
   margin-top: -1.6rem;
+  font-size: 2rem;
   border-bottom-left-radius: 2.1rem;
   border-bottom-right-radius: 2.1rem;
-  display: none;
-  animation: slideDown 0.2s ease-out;
+  animation: slideDown 0.1s ease;
 }
 
 .que-btn:focus + .content {
@@ -543,66 +542,31 @@
 
 .moreQuestions {
   display: inline-block;
+  background-color: #3462ec;
   grid-row: 4 / 4;
   grid-column: -3 / -2;
   padding: 2rem 2rem;
   border-radius: 2.1rem;
   text-align: center;
-  transition: all 0.4s;
+  transition: all 0.5s;
   cursor: pointer;
-}
-
-.showMore {
-  text-decoration: underline;
-}
-
-.moreQuestions > a {
-  color: #333;
+  color: #fff;
+  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
 }
 
 .moreQuestions:hover {
-  background-color: #3462ec;
-  color: #fff;
+  background-color: #0040ff;
   padding: 2.4rem 2.4rem;
+  margin: 1rem -2rem 1rem -2rem;
 }
 
-.moreQuestions:link,
-.moreQuestions:visited {
-  background-color: #3462ec;
-  color: #fff;
+.morequestions:link,
+.morequestions:active,
+.morequestions:focus {
+  background-color: #0040ff;
   padding: 2.4rem 2.4rem;
+  margin: 1rem -2rem 1rem -2rem;
 }
-/* .moreQuestions {
-  display: inline-block;
-  grid-row: 4 / 4;
-  grid-column: -3 / -2;
-  padding: 2rem 2rem;
-  border-radius: 2.1rem;
-  text-align: center;
-  transition: all 0.4s;
-  cursor: pointer;
-}
-
-.showMore {
-  text-decoration: underline;
-}
-
-.moreQuestions > a {
-  color: #333;
-}
-
-.moreQuestions:hover {
-  background-color: #3462ec;
-  color: #fff ;
-  padding: 2.4rem 2.4rem;
-}
-
-.moreQuestions:link,
-.moreQuestions:visited {
-  background-color: #3462ec;
-  color: #fff;
-  padding: 2.4rem 2.4rem;
-} */
 
 /* MAKING A POLICY */
 
