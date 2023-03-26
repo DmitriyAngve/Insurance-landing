@@ -2,9 +2,6 @@
   height: 92rem;
   font-family: "Mulish", sans-serif;
   line-height: 2.5rem;
-  /* height: 100rem;
-  font-family: "Mulish", sans-serif;
-  line-height: 2.5rem; */
 }
 
 .questions-heading {
@@ -13,15 +10,9 @@
   font-weight: 800;
   color: #3462ec;
   margin: 3rem 0 4rem 0;
-  /* text-align: center;
-  font-size: 7.3rem;
-  font-weight: 800;
-  color: #3462ec;
-  margin-top: 4rem; */
 }
 
 .questions {
-  /* font-size: 1.6rem; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(7, auto);
@@ -29,14 +20,6 @@
   justify-content: center;
   gap: 3rem;
   margin: 4rem 4rem 0 4rem;
-  /* font-size: 2.2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(7, auto);
-  grid-auto-rows: minmax(0, 1fr);
-  justify-content: center;
-  gap: 4rem;
-  margin: 5rem 5rem 0 5rem; */
 }
 
 .que-btn {
@@ -54,21 +37,6 @@
   border: none;
   border-radius: 2.1rem;
   transition: all 0.2s;
-  /* font-family: "Mulish", sans-serif;
-  line-height: 2.5rem;
-  font-weight: 400;
-  font-size: 2.2rem;
-  min-height: 9rem;
-  max-height: 9rem;
-  padding: 0.4rem;
-  width: 100%;
-  background-color: #3462ec;
-  color: #ffffff;
-  cursor: pointer;
-  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
-  border: none;
-  border-radius: 2.1rem;
-  transition: all 0.2s; */
 }
 
 .que-btn:hover {
@@ -93,16 +61,6 @@
   border-bottom-left-radius: 2.1rem;
   border-bottom-right-radius: 2.1rem;
   animation: slideDown 0.1s ease;
-  /* display: none;
-  background-color: #648bff;
-  color: #ffffff;
-  padding: 2.8rem;
-  line-height: 2.5rem;
-  margin-top: -1.6rem;
-  font-size: 2rem;
-  border-bottom-left-radius: 2.1rem;
-  border-bottom-right-radius: 2.1rem;
-  animation: slideDown 0.1s ease; */
 }
 
 .que-btn:focus + .content {
