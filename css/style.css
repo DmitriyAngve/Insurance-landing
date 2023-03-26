@@ -185,8 +185,7 @@
   z-index: 10;
   position: absolute;
   top: 70rem;
-  /* left: 195rem; */
-  left: 173rem;
+  left: 174rem;
 }
 
 /* SERVICES SECTION */
@@ -591,8 +590,3 @@
   width: 4rem;
   height: 4rem;
 }
-
-/* .call-background {
-  width: 4.8rem;
-  height: 4.8rem;
-} */
