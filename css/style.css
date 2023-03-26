@@ -577,58 +577,50 @@
 
 .questions {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-auto-rows: minmax(0, 1fr);
   justify-content: center;
   gap: 5rem;
   margin: 10rem 5rem 0 5rem;
   font-size: 2.2rem;
 }
 
-.column {
-}
-
-/* Style the columns */
-.question {
-  /* flex: 1;
-  padding: 10px; */
-  /* margin-left: 40rem; */
-}
-
-/* Style the buttons */
 .que-btn {
-  background-color: #4caf50;
-  color: white;
+  font-family: "Mulish", sans-serif;
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  min-height: 8rem;
+  background-color: #3462ec;
+  color: #ffffff;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   width: 100%;
   text-align: center;
-  border: 1px solid #021f78;
   border-radius: 2.1rem;
 }
 
-/* Style the content */
 .content {
-  background-color: #f9f9f9;
+  background-color: #648bff;
+  color: #ffffff;
   padding: 2.8rem;
   margin-top: -1.6rem;
-  display: none;
-  border-bottom: 1px solid #021f78;
-  border-left: 1px solid #021f78;
-  border-right: 1px solid #021f78;
+  border-bottom: 1px solid #648bff;
+  border-left: 1px solid #648bff;
+  border-right: 1px solid #648bff;
   border-bottom-left-radius: 2.1rem;
   border-bottom-right-radius: 2.1rem;
+  display: none;
   animation: slideDown 0.2s ease-out;
 }
 
-/* Show the content when the button is clicked */
 .que-btn:focus + .content {
   display: block;
 }
 
-/* Slide the content down */
 @keyframes slideDown {
   from {
     opacity: 0;
