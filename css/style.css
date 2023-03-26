@@ -592,14 +592,26 @@
   font-weight: 400;
   font-size: 2rem;
   min-height: 8rem;
+  width: 100%;
   background-color: #3462ec;
   color: #ffffff;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
   cursor: pointer;
-  width: 100%;
-  text-align: center;
+  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 2.1rem;
+}
+
+.que-btn:hover {
+  background-color: #0040ff;
+  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 2.1rem;
+}
+
+.que-btn:focus,
+.que-btn:link,
+.que-btn:active {
+  background-color: #0040ff;
+  box-shadow: 0px 0rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
   border-radius: 2.1rem;
 }
 
@@ -608,9 +620,6 @@
   color: #ffffff;
   padding: 2.8rem;
   margin-top: -1.6rem;
-  border-bottom: 1px solid #648bff;
-  border-left: 1px solid #648bff;
-  border-right: 1px solid #648bff;
   border-bottom-left-radius: 2.1rem;
   border-bottom-right-radius: 2.1rem;
   display: none;
