@@ -19,11 +19,11 @@
   align-items: center;
   gap: 6.5rem;
   font-size: 2.4rem;
+  text-decoration: none;
 }
 
 .main-nav-list:link,
 .main-nav-list:visited {
-  text-decoration: none;
   color: #435cac;
 }
 
@@ -69,12 +69,12 @@
   display: inline-block;
   font-size: 1.6rem;
   margin-left: 4rem;
+  background-color: #2e46cd;
 }
 
 .nav-cta:hover,
 .nav-cta:active {
-  color: #553030;
-  background-color: #2e46cd;
+  color: #ffffff;
 }
 
 /* HERO SECTION */
@@ -130,10 +130,22 @@
 }
 
 .btn-blue {
-  border: 0.15rem solid #364abb;
   color: #edeeff;
-  background-color: #2e46cd;
+  background-color: #3462ec;
   margin-right: 3.5rem;
+  border: 0.15rem solid #3462ec;
+  transition: all 0.5s;
+}
+
+.btn-blue:hover {
+  color: #3462ec;
+  background-color: #edeeff;
+}
+
+.btn-blue:link,
+.btn-blue:focus {
+  color: #3462ec;
+  background-color: #edeeff;
 }
 
 .btn-white {
@@ -141,6 +153,19 @@
   color: #333;
   padding-left: 6rem;
   padding-right: 6rem;
+}
+
+.btn-white:hover {
+  color: #3462ec;
+  background-color: #edeeff;
+  border: 0.15rem solid #3462ec;
+}
+
+.btn-white:link,
+.btn-white:focus {
+  color: #3462ec;
+  background-color: #edeeff;
+  border: 0.15rem solid #3462ec;
 }
 
 .hero-figures {
@@ -178,14 +203,25 @@
 .smartphone {
   width: 48rem;
   height: 68rem;
+  /*  */
+  position: relative;
+  z-index: 1;
 }
 
 .hero-img-line {
-  margin-bottom: 10rem;
-  z-index: 10;
+  /* margin-bottom: 10rem; */
+  /* z-index: 10;
   position: absolute;
   top: 70rem;
   left: 174rem;
+  float: right; */
+  /* float: right;
+  margin-bottom: 10rem; */
+
+  position: absolute;
+  top: 70rem;
+  right: 0;
+  z-index: 2;
 }
 
 /* SERVICES SECTION */
@@ -217,9 +253,6 @@
   height: 7.7rem;
   margin-left: 70rem;
   margin-top: -11rem;
-  /* position: absolute;
-  left: 55rem;
-  top: 97rem; */
 }
 
 .smartphone-2 {
@@ -312,7 +345,6 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  /* height: 97rem; */
   background-image: linear-gradient(
     to bottom,
     #ffffff,
@@ -392,7 +424,6 @@
 .support-bottom {
   display: flex;
   justify-content: space-evenly;
-  /* align-items: center; */
   font-size: 2rem;
   color: #ffffff;
   background-color: #6379f1;
@@ -414,8 +445,6 @@
 /* DESCRIPTION SECTION */
 
 .section-description {
-  /* background-image: url(images/background.png);
-  background-size: cover; */
   background-image: url(/images/background.png);
   background-size: cover;
   height: 98rem;

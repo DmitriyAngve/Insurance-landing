@@ -1,0 +1,36 @@
+/* rem and em do NOT depend on html font-size in media queres! Instead, 1rem = 1em = 16px (EM for media quaries) */
+
+/***************************************/
+/* BELOW 1800px */
+/**************************************/
+@media (max-width: 112.5em) {
+  .primary-heading {
+    font-size: 6rem;
+    font-weight: 700;
+  }
+
+  .phone {
+    margin-left: 24rem;
+  }
+
+  .bigTriangle {
+    transform: rotate(180deg);
+    margin: 1.5rem 45rem 0 5rem;
+  }
+
+  .description-text-box {
+    gap: 5rem;
+  }
+
+  .description-heading {
+    font-size: 6rem;
+    font-weight: 700;
+  }
+}
+
+/***************************************/
+/* BELOW 1344px (Smaller desktops)  */
+/**************************************/
+
+@media (max-width: 84em) {
+}
