@@ -326,6 +326,10 @@
 /**************************************/
 
 @media (max-width: 84em) {
+  .container {
+    width: 128rem;
+  }
+
   .main-nav-list {
     gap: 2.5rem;
   }
@@ -597,7 +601,7 @@
 
 @media (max-width: 66.25em) {
   .container {
-    width: 122rem;
+    width: 124rem;
   }
 
   .smartphone-3 {
