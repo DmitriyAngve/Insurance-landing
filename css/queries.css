@@ -13,6 +13,10 @@
     font-size: 6.5rem;
     font-weight: 700;
   }
+
+  .tertiary-heading {
+    font-size: 6rem;
+  }
 }
 
 /***************************************/
@@ -55,6 +59,10 @@
   .description-heading {
     font-size: 5.5rem;
   }
+
+  .tertiary-heading {
+    font-size: 5.6rem;
+  }
 }
 
 /***************************************/
@@ -63,7 +71,7 @@
 
 @media (max-width: 106.25em) {
   .description-heading {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   .questions {
@@ -74,6 +82,13 @@
     width: 80rem;
     height: 50rem;
     margin: 20rem 8rem 20rem 8rem;
+  }
+
+  .rectangle {
+    width: 8rem;
+    height: 6rem;
+    margin-left: 70rem;
+    margin-top: -11rem;
   }
 }
 
@@ -98,10 +113,28 @@
     margin-top: 8rem;
   }
 
+  .services-description-first {
+    font-size: 2.2rem;
+    margin-left: 20rem;
+  }
+
+  .services-description-second {
+    font-size: 2.2rem;
+    margin-left: 10rem;
+  }
+
   .smartphone-4 {
     width: 72rem;
     height: 44rem;
     margin: 15rem 5rem 15rem 5rem;
+  }
+
+  .tertiary-heading {
+    font-size: 5.2rem;
+  }
+
+  .support-top {
+    grid-template-columns: 2fr 1fr;
   }
 }
 
@@ -110,6 +143,14 @@
 /**************************************/
 
 @media (max-width: 97.5em) {
+  .logo {
+    margin-left: 6rem;
+  }
+
+  .nav-btn {
+    padding: 0.8rem 1rem;
+  }
+
   .bigTriangle {
     margin: 1rem 35rem 0 1rem;
   }
@@ -118,11 +159,151 @@
     margin-left: 18rem;
   }
 
+  .tertiary-heading {
+    font-size: 5.2rem;
+  }
+
+  .smartphone-3 {
+    width: 36rem;
+    height: 76.5rem;
+    margin-top: 2rem;
+    margin-right: -7rem;
+  }
+
   .smartphone-4 {
     margin: 12rem 3rem 12rem 3rem;
   }
 
   .description-text-box {
     margin-top: 10rem;
+  }
+
+  .questions-heading {
+    font-size: 6rem;
+    margin-top: 2rem;
+  }
+
+  .questions {
+    font-size: 2rem;
+    gap: 1.8rem;
+  }
+
+  .content {
+    font-size: 1.8rem;
+  }
+}
+
+/***************************************/
+/* 1460px */
+/**************************************/
+@media (max-width: 91.25em) {
+  .logo {
+    margin-left: 4rem;
+  }
+
+  .nav-btn {
+    padding: 0.8rem 0.8rem;
+  }
+
+  .nav-cta {
+    font-size: 1.6rem;
+    margin-left: 3rem;
+  }
+
+  .bigTriangle {
+    margin: 1rem 27.5rem 0 1rem;
+  }
+
+  .phone {
+    margin-left: 15rem;
+  }
+
+  .secondary-heading {
+    font-size: 6rem;
+    font-weight: 700;
+  }
+
+  .figure-top {
+    margin-bottom: 5rem;
+  }
+
+  .top-bluredFigure {
+    width: 11.2rem;
+    height: 28rem;
+    /* position: absolute;
+    top: 195rem; */
+  }
+
+  .figure-bottom {
+    position: relative;
+    bottom: -2.2rem;
+    left: 40rem;
+  }
+
+  .bottom-bluredFigure {
+    width: 36.8rem;
+    height: 16rem;
+    position: absolute;
+    top: -7rem;
+  }
+
+  .bluredCross {
+    width: 37.6rem;
+    height: 48rem;
+  }
+}
+
+/***************************************/
+/* 1400px */
+/**************************************/
+
+@media (max-width: 87.5em) {
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .main-nav-list {
+    gap: 5.5rem;
+  }
+
+  .phone {
+    margin-left: 12rem;
+  }
+
+  .services-description-first {
+    font-size: 2.2rem;
+    margin-left: 15rem;
+  }
+
+  .services-description-second {
+    font-size: 2.2rem;
+    margin-left: 5rem;
+  }
+
+  .support-heading {
+    margin-bottom: 15rem;
+  }
+
+  .description-heading {
+    font-size: 5rem;
+    margin-top: 2rem;
+  }
+
+  .description-text-box {
+    /* gap: 3rem; */
+    margin: 7rem;
+  }
+
+  .description-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .que-btn {
+    line-height: 2.4rem;
+    font-size: 2rem;
+    max-height: 11rem;
+    padding: 0.4rem;
+    width: 100%;
   }
 }
