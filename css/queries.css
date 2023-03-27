@@ -307,3 +307,53 @@
     width: 100%;
   }
 }
+
+/***************************************/
+/* BELOW 1344px (Smaller desktops)  */
+/**************************************/
+
+@media (max-width: 84em) {
+  .main-nav-list {
+    gap: 4.5rem;
+  }
+  .number {
+    padding: 4rem 8rem;
+  }
+
+  .hero-heading {
+    margin-top: 10rem;
+  }
+
+  .primary-heading {
+    font-size: 4.8rem;
+  }
+
+  .secondary-heading {
+    font-size: 4.8rem;
+  }
+
+  .smartphone-2 {
+    width: 61.65rem;
+    height: 64.6rem;
+  }
+
+  .services-line {
+    margin-bottom: 5rem;
+  }
+
+  .services-description-first {
+    margin-left: 5rem;
+  }
+
+  .services-description-second {
+    margin-left: -1rem;
+  }
+
+  .services-bigCross {
+    margin-left: 4rem;
+  }
+
+  .questions {
+    margin-bottom: 2rem;
+  }
+}
