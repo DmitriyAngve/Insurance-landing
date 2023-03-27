@@ -459,6 +459,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 7rem;
   margin-left: 10.5rem;
   margin-right: 12rem;
@@ -469,7 +470,7 @@
 .description-heading {
   font-size: 7.3rem;
   font-weight: 800;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .description-text {
