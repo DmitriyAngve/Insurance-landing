@@ -71,7 +71,8 @@
 
 @media (max-width: 106.25em) {
   .description-heading {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
+    margin-top: 10rem;
   }
 
   .questions {
@@ -178,6 +179,10 @@
     margin-top: 10rem;
   }
 
+  .benefits {
+    margin-top: 7rem;
+  }
+
   .questions-heading {
     font-size: 6rem;
     margin-top: 2rem;
@@ -244,12 +249,12 @@
     width: 36.8rem;
     height: 16rem;
     position: absolute;
-    top: -7rem;
+    top: -3rem;
   }
 
   .bluredCross {
     width: 37.6rem;
-    height: 48rem;
+    /* height: 48rem; */
   }
 }
 
@@ -264,6 +269,10 @@
 
   .main-nav-list {
     gap: 5.5rem;
+  }
+
+  .hero-description {
+    font-size: 2.2rem;
   }
 
   .phone {
@@ -282,6 +291,10 @@
 
   .support-heading {
     margin-bottom: 15rem;
+  }
+
+  .support-text {
+    font-size: 2.2rem;
   }
 
   .description-heading {
@@ -314,7 +327,7 @@
 
 @media (max-width: 84em) {
   .main-nav-list {
-    gap: 4.5rem;
+    gap: 2.5rem;
   }
   .number {
     padding: 4rem 8rem;
@@ -330,6 +343,11 @@
 
   .secondary-heading {
     font-size: 4.8rem;
+  }
+
+  .rectangle {
+    margin-left: 60rem;
+    margin-top: -21rem;
   }
 
   .smartphone-2 {
@@ -349,11 +367,272 @@
     margin-left: -1rem;
   }
 
+  .description-text-box {
+    margin: 5rem;
+  }
+
+  .description-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .services-bigCross {
     margin-left: 4rem;
   }
 
-  .questions {
-    margin-bottom: 2rem;
+  .questions-heading {
+    font-size: 5rem;
   }
+
+  .questions {
+    margin: 2rem 5rem 0 5rem;
+  }
+
+  .que-btn {
+    line-height: 2.2rem;
+    font-size: 1.8rem;
+    min-height: 8rem;
+    max-height: 11rem;
+  }
+
+  .footer {
+    padding: 12rem 0 0 4.5rem;
+  }
+
+  .footer-number {
+    text-align: center;
+  }
+}
+
+/***************************************/
+/* BELOW 1200px (Landscape Tablets)  */
+/**************************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .hero-text-box {
+    margin: 3.5rem 0 0 7.5rem;
+  }
+
+  .blueLine {
+    width: 75%;
+  }
+
+  .hero {
+    gap: 2rem;
+  }
+
+  .phone {
+    margin-left: 5rem;
+  }
+
+  .services-img-box {
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .secondary-heading {
+    padding-bottom: 5rem;
+  }
+
+  .services-description-first {
+    padding-bottom: 5rem;
+  }
+
+  .smartphone-2 {
+    width: 54.8rem;
+    height: 57.6rem;
+  }
+
+  .bottom-bluredFigure {
+    top: -10rem;
+  }
+
+  .support-bottom {
+    font-size: 1.8rem;
+  }
+
+  .benefits {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 8rem;
+  }
+
+  .footer-number {
+    margin-left: 0.2rem;
+  }
+}
+
+/***************************************/
+/* 1140px   */
+/**************************************/
+
+@media (max-width: 71.25em) {
+  html {
+    width: 100%;
+  }
+
+  .hero-text-box {
+    margin: 2rem 0 0 5.5rem;
+  }
+
+  .main-nav-list {
+    gap: 3.5rem;
+    font-size: 2rem;
+  }
+
+  .description {
+    grid-template-columns: 40% 60%;
+  }
+
+  .description-text-box {
+    margin-left: 5rem;
+  }
+
+  .support-heading {
+    margin-left: 5.5rem;
+  }
+
+  .support-bottom {
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    gap: 2rem;
+  }
+}
+
+/***************************************/
+/* 1100px   */
+/**************************************/
+
+@media (max-width: 68.75em) {
+  .line {
+    margin-top: -5rem;
+  }
+
+  .blueLine {
+    width: 50%;
+  }
+
+  .main-nav-list {
+    gap: 2.5rem;
+  }
+
+  .nav-btn {
+    padding: 0.6rem 0.6rem;
+  }
+
+  .hero-heading {
+    margin-top: -5rem;
+  }
+
+  .primary-heading {
+    font-size: 4.2rem;
+  }
+
+  .hero-btn {
+    padding: 0.8rem 1rem;
+  }
+
+  .smartphone {
+    width: 43.2rem;
+    height: 61.2rem;
+  }
+
+  .hero-img-line {
+    top: 60rem;
+    left: 105rem;
+  }
+
+  .figure-top {
+    margin-bottom: 10rem;
+  }
+
+  .top-bluredFigure {
+    width: 9.8rem;
+    height: 24.5rem;
+  }
+
+  .bottom-bluredFigure {
+    width: 32.2rem;
+    height: 14rem;
+    top: -6rem;
+    right: 70rem;
+  }
+
+  .bluredCross {
+    width: 32.9rem;
+    margin-bottom: 15rem;
+  }
+
+  .support-right-img {
+    margin-bottom: 12rem;
+  }
+
+  .content {
+    padding: 1.8rem;
+  }
+
+  .registration {
+    margin-bottom: 0rem;
+  }
+
+  .footer-logo {
+    margin-left: 5rem;
+  }
+}
+
+/***************************************/
+/* 1100px   */
+/**************************************/
+
+@media (max-width: 66.25em) {
+  .container {
+    width: 122rem;
+  }
+
+  .smartphone-3 {
+    margin-right: -14rem;
+  }
+}
+
+/***************************************/
+/* BELOW 944px (Landscape Tablets)  */
+/**************************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .benefits {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 8rem;
+  }
+}
+
+/***************************************/
+/* BELOW 740px (Smaller Tablets)  */
+/**************************************/
+
+@media (max-width: 44em) {
+  .smartphone-3 {
+    margin-right: -45rem;
+  }
+}
+
+/***************************************/
+/* BELOW 544px (Phones)  */
+/**************************************/
+@media (max-width: 34em) {
 }
