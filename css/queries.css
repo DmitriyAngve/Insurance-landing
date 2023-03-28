@@ -493,6 +493,11 @@
     font-size: 2rem;
   }
 
+  .hero-img-line {
+    top: 70rem;
+    left: 115rem;
+  }
+
   .description {
     grid-template-columns: 40% 60%;
   }
@@ -554,7 +559,7 @@
 
   .hero-img-line {
     top: 60rem;
-    left: 105rem;
+    left: 116rem;
   }
 
   .figure-top {
@@ -596,12 +601,12 @@
 }
 
 /***************************************/
-/* 1100px   */
+/* 1060px   */
 /**************************************/
 
 @media (max-width: 66.25em) {
   .container {
-    width: 124rem;
+    max-width: 115%;
   }
 
   .smartphone-3 {
