@@ -472,7 +472,9 @@
 
 @media (max-width: 71.25em) {
   .container {
-    width: 106%;
+    /* width: 106%; */
+    min-width: 134rem;
+    max-width: 140rem;
   }
 
   .hero-text-box {
@@ -516,7 +518,9 @@
 
 @media (max-width: 68.75em) {
   .container {
-    width: 115%;
+    /* width: 115%; */
+    min-width: 139.5rem;
+    max-width: 140rem;
   }
 
   .line {
@@ -554,7 +558,7 @@
 
   .hero-img-line {
     top: 60rem;
-    left: 116rem;
+    left: 121rem;
   }
 
   .figure-top {
@@ -601,7 +605,9 @@
 
 @media (max-width: 66.25em) {
   .container {
-    width: 116%;
+    /* width: 116%; */
+    min-width: 139.5rem;
+    max-width: 150rem;
   }
 
   .smartphone-3 {
@@ -618,6 +624,12 @@
     font-size: 50%;
   }
 
+  .container {
+    /* width: 155%; */
+    min-width: 141.5rem;
+    max-width: 150rem;
+  }
+
   .benefits {
     margin-right: 3rem;
     margin-left: 3rem;
@@ -632,8 +644,8 @@
 @media (max-width: 44em) {
   .container {
     /* width: 155%; */
+    min-width: 142rem;
     max-width: 150rem;
-    min-width: 136.5rem;
   }
 
   .smartphone-3 {
