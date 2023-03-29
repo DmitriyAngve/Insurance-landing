@@ -600,6 +600,10 @@
 /**************************************/
 
 @media (max-width: 66.25em) {
+  .container {
+    width: 116%;
+  }
+
   .smartphone-3 {
     margin-right: -14rem;
   }
@@ -626,6 +630,12 @@
 /**************************************/
 
 @media (max-width: 44em) {
+  .container {
+    /* width: 155%; */
+    max-width: 150rem;
+    min-width: 136.5rem;
+  }
+
   .smartphone-3 {
     margin-right: -45rem;
   }
