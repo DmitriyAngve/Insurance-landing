@@ -272,7 +272,7 @@
   }
 
   .phone {
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
 
   .services-description-first {
@@ -324,8 +324,13 @@
   .main-nav-list {
     gap: 2.5rem;
   }
+
   .number {
     padding: 4rem 8rem;
+  }
+
+  .phone {
+    margin-left: 5rem;
   }
 
   .hero-heading {
@@ -482,8 +487,8 @@
   }
 
   .main-nav-list {
-    gap: 3.5rem;
-    font-size: 2rem;
+    gap: 5.5rem;
+    font-size: 2.2rem;
   }
 
   .number {
@@ -493,7 +498,7 @@
 
   .hero-img-line {
     top: 70rem;
-    left: 110rem;
+    left: 115rem;
   }
 
   .description {
@@ -537,11 +542,11 @@
   }
 
   .main-nav-list {
-    gap: 1.5rem;
+    gap: 4.5rem;
   }
 
   .nav-btn {
-    padding: 0.6rem 0.6rem;
+    padding: 0.6rem 1.6rem;
   }
 
   .number {
