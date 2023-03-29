@@ -493,7 +493,7 @@
 
   .number {
     padding: 4rem 5rem;
-    margin-right: 10rem;
+    margin-right: 0rem;
   }
 
   .hero-img-line {
@@ -643,7 +643,7 @@
 /**************************************/
 @media (max-width: 59em) {
   html {
-    /* 8px / 16px = 0.5 = 50% */
+    /* 8px / 16px = 0.5 = 50%  */
     font-size: 50%;
   }
 
@@ -657,6 +657,10 @@
     margin-right: 3rem;
     margin-left: 3rem;
     margin-bottom: 8rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
   }
 }
 
@@ -675,5 +679,3 @@
 /***************************************/
 /* BELOW 544px (Phones)  */
 /**************************************/
-@media (max-width: 34em) {
-}
