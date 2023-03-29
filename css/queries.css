@@ -486,9 +486,14 @@
     font-size: 2rem;
   }
 
+  .number {
+    padding: 4rem 5rem;
+    margin-right: 0rem;
+  }
+
   .hero-img-line {
     top: 70rem;
-    left: 115rem;
+    left: 110rem;
   }
 
   .description {
@@ -532,11 +537,16 @@
   }
 
   .main-nav-list {
-    gap: 2.5rem;
+    gap: 1.5rem;
   }
 
   .nav-btn {
     padding: 0.6rem 0.6rem;
+  }
+
+  .number {
+    padding: 4rem 3rem;
+    margin-right: 0rem;
   }
 
   .hero-heading {
@@ -626,7 +636,7 @@
 
   .container {
     /* width: 155%; */
-    min-width: 141.5rem;
+    min-width: 142.5rem;
     max-width: 150rem;
   }
 
