@@ -71,7 +71,6 @@
 
 @media (max-width: 106.25em) {
   .description-heading {
-    /* margin-top: 5rem; */
     margin-top: 10rem;
   }
 
@@ -235,8 +234,6 @@
   .top-bluredFigure {
     width: 11.2rem;
     height: 28rem;
-    /* position: absolute;
-    top: 195rem; */
   }
 
   .figure-bottom {
@@ -254,7 +251,6 @@
 
   .bluredCross {
     width: 37.6rem;
-    /* height: 48rem; */
   }
 }
 
@@ -303,7 +299,6 @@
   }
 
   .description-text-box {
-    /* gap: 3rem; */
     margin: 7rem;
   }
 
@@ -326,10 +321,6 @@
 /**************************************/
 
 @media (max-width: 84em) {
-  .container {
-    width: 138rem;
-  }
-
   .main-nav-list {
     gap: 2.5rem;
   }
@@ -480,8 +471,8 @@
 /**************************************/
 
 @media (max-width: 71.25em) {
-  html {
-    width: 100%;
+  .container {
+    width: 106%;
   }
 
   .hero-text-box {
@@ -524,6 +515,10 @@
 /**************************************/
 
 @media (max-width: 68.75em) {
+  .container {
+    width: 115%;
+  }
+
   .line {
     margin-top: -5rem;
   }
@@ -605,10 +600,6 @@
 /**************************************/
 
 @media (max-width: 66.25em) {
-  .container {
-    max-width: 115%;
-  }
-
   .smartphone-3 {
     margin-right: -14rem;
   }
