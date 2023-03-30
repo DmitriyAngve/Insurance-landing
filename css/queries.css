@@ -943,12 +943,6 @@
       display: none;
     }
 
-    .hero-heading {
-    }
-
-    .primary-heading {
-    }
-
     .hero-description {
       font-size: 2.4rem;
       margin-top: 2rem;
@@ -977,8 +971,107 @@
     }
 
     .phone {
-      margin-left: 0;
+      margin-left: -1rem;
     }
+
+    .hero-figures {
+      display: block;
+    }
+
+    .cross {
+      position: absolute;
+      top: 14rem;
+      left: -4rem;
+      width: 3%;
+    }
+
+    .triangle {
+      position: absolute;
+      top: 74rem;
+      left: 6rem;
+      width: 6%;
+    }
+
+    .bigTriangle {
+      margin: 0;
+      position: absolute;
+      top: 12rem;
+      right: 4rem;
+      width: 10%;
+    }
+
+    .services {
+      grid-template-columns: 1fr;
+    }
+
+    .services-img-box {
+      margin: 0;
+      /* grid-row: 2 / 0; */
+      grid-column: 2 / -1;
+    }
+
+    .services-text-box {
+      grid-row: 2 / -1;
+      grid-column: 2 / -1;
+    }
+
+    .figure-services {
+      display: none;
+    }
+
+    .smallCross {
+      position: absolute;
+      margin-top: 0;
+      top: 91rem;
+      left: 4rem;
+    }
+
+    .services-line {
+      margin: 0;
+    }
+
+    .servicesLine {
+      position: absolute;
+      top: 93rem;
+      right: 1rem;
+      margin-top: 0;
+    }
+
+    .secrvices-flex-queries {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .services-heading {
+      margin: 5rem 0 0 0;
+      text-align: center;
+    }
+
+    .services-description {
+      width: 60%;
+      margin: 0 1rem 0 1rem;
+    }
+
+    .services-description-second {
+      /* width: 50%; */
+    }
+
+    .services-description-second {
+      /* width: 50%; */
+    }
+
+    .services-smallCross {
+      margin: 0;
+    }
+
+    .smartphone-2 {
+      /* margin: -4rem 0 0 0; */
+    }
+
+    /*  */
   }
   /***************************************/
   /* Iphone 14 Pro Max 430px  */
@@ -1017,7 +1110,6 @@
 
     .hero {
       grid-template-columns: 1fr;
-      /* height: 92rem; */
     }
 
     .icon-mobile-nav {
