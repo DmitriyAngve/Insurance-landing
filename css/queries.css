@@ -1162,136 +1162,177 @@
       max-height: 90rem;
       min-height: 90rem;
       flex-direction: column;
+      justify-content: center;
       gap: 0;
-      align-items: flex-end;
+      background-image: linear-gradient(
+        to bottom,
+        #6379f1,
+        #8692f6,
+        #a5adf9,
+        #c3c7fd,
+        #c9ccf0
+      );
     }
 
     .benefits {
-      margin: 0;
-    }
-
-    .queries-first {
-      margin-left: 10rem;
-    }
-    .queries-second {
-    }
-    .queries-third {
-    }
-    .queries-fourth {
-    }
-
-    .section-description {
-      margin-top: 90rem;
+      margin: 0 10rem 0 10rem;
+      font-size: 2.4rem;
+      max-height: 15rem;
+      min-height: 20rem;
+      min-width: 36rem;
+      max-width: 46rem;
+      padding: 0;
+      border: none;
     }
   }
-  /***************************************/
-  /* Iphone 14 Pro Max 430px  */
-  /**************************************/
-  @media (max-width: 26.875em) {
-    html {
-      font-size: 62.5%;
-    }
 
-    .container {
-      min-width: 43rem;
-      max-width: 120rem;
-    }
+  .queries-first {
+    display: flex;
+    align-self: flex-start;
+  }
+  .queries-second {
+    display: flex;
+    align-self: flex-end;
+  }
+  .queries-third {
+    display: flex;
+    align-self: flex-start;
+  }
+  .queries-fourth {
+    display: flex;
+    align-self: flex-end;
+  }
 
-    .header {
-      height: 15rem;
-    }
+  .border-queries-left {
+    padding: 3rem 0 0 3rem;
+    border-right: none;
+    border-bottom: none;
+    border-top: solid 2px #ffffff;
+    border-left: solid 2px #ffffff;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 0;
+  }
 
-    .section-hero {
-      min-height: 92rem;
-      max-height: 180rem;
-    }
+  .border-queries-right {
+    padding: 3rem 3rem 0 0;
+    border-left: none;
+    border-bottom: none;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    border-top-right-radius: 5rem;
+  }
 
-    .logo {
-      height: 12rem;
-    }
+  .section-description {
+    margin-top: 60rem;
+  }
+}
+/***************************************/
+/* Iphone 14 Pro Max 430px  */
+/**************************************/
+@media (max-width: 26.875em) {
+  html {
+    font-size: 62.5%;
+  }
 
-    .main-nav {
-      top: 15rem;
-      height: 50rem;
-    }
+  .container {
+    min-width: 43rem;
+    max-width: 120rem;
+  }
 
-    .nav-cta {
-      font-size: 4.8rem;
-    }
+  .header {
+    height: 15rem;
+  }
 
-    .hero {
-      grid-template-columns: 1fr;
-    }
+  .section-hero {
+    min-height: 92rem;
+    max-height: 180rem;
+  }
 
-    .icon-mobile-nav {
-      transform: scale(3);
-    }
+  .logo {
+    height: 12rem;
+  }
 
-    .blueLine {
-      display: none;
-    }
+  .main-nav {
+    top: 15rem;
+    height: 50rem;
+  }
 
-    .hero-text-box {
-      margin: 3rem 5rem 0 5rem;
-    }
+  .nav-cta {
+    font-size: 4.8rem;
+  }
 
-    .hero-heading {
-      text-align: center;
-      /* margin: 1rem 2rem 2rem 2rem; */
-    }
+  .hero {
+    grid-template-columns: 1fr;
+  }
 
-    .primary-heading {
-      font-size: 12rem;
-    }
+  .icon-mobile-nav {
+    transform: scale(3);
+  }
 
-    .hero-description {
-      font-size: 4.2rem;
-      margin: 3rem 5rem 3rem 5rem;
-    }
+  .blueLine {
+    display: none;
+  }
 
-    .hero-img-line {
-      display: none;
-    }
+  .hero-text-box {
+    margin: 3rem 5rem 0 5rem;
+  }
 
-    .main-nav-list {
-      font-size: 4.2rem;
-      gap: 2.5rem;
-    }
+  .hero-heading {
+    text-align: center;
+    /* margin: 1rem 2rem 2rem 2rem; */
+  }
 
-    .btn-mobile-queries {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  .primary-heading {
+    font-size: 12rem;
+  }
 
-    .nav-btn {
-      border: 3px solid #364abb;
-      min-width: 45rem;
-      max-width: 45rem;
-    }
+  .hero-description {
+    font-size: 4.2rem;
+    margin: 3rem 5rem 3rem 5rem;
+  }
 
-    .hero-btn {
-      font-size: 3.2rem;
-      min-width: 30rem;
-    }
+  .hero-img-line {
+    display: none;
+  }
 
-    .btn-blue {
-      margin: 1rem;
-    }
+  .main-nav-list {
+    font-size: 4.2rem;
+    gap: 2.5rem;
+  }
 
-    .btn-white {
-      margin: 1rem;
-    }
+  .btn-mobile-queries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .phone {
-      margin-left: 55rem;
-    }
+  .nav-btn {
+    border: 3px solid #364abb;
+    min-width: 45rem;
+    max-width: 45rem;
+  }
 
-    .smartphone {
-      height: 50rem;
-      width: 32rem;
-      transform: scale(2.5);
-    }
+  .hero-btn {
+    font-size: 3.2rem;
+    min-width: 30rem;
+  }
+
+  .btn-blue {
+    margin: 1rem;
+  }
+
+  .btn-white {
+    margin: 1rem;
+  }
+
+  .phone {
+    margin-left: 55rem;
+  }
+
+  .smartphone {
+    height: 50rem;
+    width: 32rem;
+    transform: scale(2.5);
   }
 }
