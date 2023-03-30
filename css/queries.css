@@ -649,7 +649,7 @@
   .container {
     /* width: 116%; */
     min-width: 106rem;
-    max-width: 150rem;
+    max-width: 140rem;
   }
 
   .main-nav-list {
@@ -697,7 +697,7 @@
 
     .container {
       /* width: 155%; */
-      min-width: 113rem;
+      min-width: 94.4rem;
       max-width: 120rem;
     }
 
@@ -705,18 +705,120 @@
       display: none;
     }
 
+    .line {
+      display: none;
+    }
+
+    .hero-heading {
+      margin-top: -20rem;
+      margin-left: -1rem;
+      text-align: center;
+    }
+
+    .primary-heading {
+      font-size: 6.2rem;
+    }
+
+    .hero-description {
+      font-size: 2.4rem;
+    }
+
     .phone {
-      margin-left: 6rem;
+      margin-left: 10rem;
+    }
+
+    .hero-figures {
+      margin-left: 5rem;
+    }
+
+    .bigTriangle {
+      margin: 0 0 0 1rem;
+    }
+
+    .smartphone-2 {
+      margin-left: 5rem;
+    }
+
+    .support-text-box {
+      margin-left: 5rem;
+    }
+
+    .services-heading {
+      margin-right: 5rem;
+    }
+
+    .secondary-heading {
+      font-size: 6.2rem;
+    }
+
+    .services-description-first {
+      font-size: 2.4rem;
+    }
+
+    .services-description-second {
+      font-size: 2.4rem;
+    }
+
+    .figure-top {
+      margin-left: -4.5rem;
+    }
+
+    .support-heading {
+      margin-left: 5rem;
+      text-align: center;
+    }
+
+    .tertiary-heading {
+      font-size: 6.2rem;
+    }
+
+    .support-text {
+      text-align: initial;
+      font-size: 2.4rem;
+    }
+
+    .bluredCross {
+      width: 27.9rem;
+      margin-bottom: 31rem;
+      height: 39rem;
+    }
+
+    .figure-bottom {
+      bottom: 4rem;
+    }
+
+    .support-bottom {
+      margin: 0;
+      /* gap: 1rem; */
     }
 
     .benefits {
       margin-right: 3rem;
       margin-left: 3rem;
-      margin-bottom: 8rem;
+      margin-bottom: 11rem;
     }
 
-    .figure-bottom {
-      bottom: -3rem;
+    .description {
+      grid-template-columns: 1fr 50%;
+    }
+
+    .description-heading {
+      font-size: 6.2rem;
+      margin-top: 8rem;
+    }
+
+    .description-text {
+      font-size: 2.2rem;
+      font-weight: 400;
+    }
+
+    .description-smartphone {
+      margin-right: 6rem;
+    }
+
+    .smartphone-4 {
+      width: 64.8rem;
+      height: 39.6rem;
     }
 
     /* MOBILE NAVIGATION */
@@ -832,6 +934,24 @@
       /* width: 155%; */
       min-width: 74rem;
       max-width: 120rem;
+    }
+
+    .line {
+      display: none;
+    }
+
+    .hero-heading {
+      margin-top: -12rem;
+      margin-left: -2rem;
+      text-align: center;
+    }
+
+    .primary-heading {
+      font-size: 7.2rem;
+    }
+
+    .hero-description {
+      font-size: 2.4rem;
     }
   }
 
