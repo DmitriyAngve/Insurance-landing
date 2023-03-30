@@ -470,6 +470,16 @@
     margin-right: 5rem;
   }
 
+  .rustore {
+    width: 4.6rem;
+    height: 4.6em;
+  }
+
+  .google-store {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
   .footer-number {
     margin-left: 0.2rem;
   }
@@ -534,6 +544,11 @@
 
   .questions {
     margin: 2rem 2rem 0 2rem;
+  }
+
+  .app-store {
+    width: 4.6rem;
+    height: 4.6rem;
   }
 
   .footer {
@@ -634,6 +649,10 @@
 
   .registration {
     margin-bottom: 0rem;
+  }
+
+  .footer-store-icons {
+    margin-left: 2rem;
   }
 
   .footer-logo {
@@ -916,6 +935,11 @@
     background-color: #ffffff;
     color: #2e46cd;
     font-size: 3.2rem;
+  }
+
+  .rustore {
+    width: 5rem;
+    height: 5rem;
   }
 }
 
@@ -1234,14 +1258,12 @@
   .description-text-box {
     grid-column: 2 / -1;
     grid-row: 2 / -1;
+    text-align: center;
+    margin: 3rem;
   }
   .description-img-box {
     grid-column: 2 / -1;
   }
-
-  /* .description-smartphone {
-    z-index: 1;
-  } */
 
   .smartphone-4 {
     width: 82rem;
@@ -1253,12 +1275,48 @@
   .section-questions {
     position: relative;
     z-index: 5;
+    margin-top: -2rem;
   }
 
   .question-queries {
-    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
   }
 
+  .questions-heading {
+    font-size: 6.2rem;
+    margin: 0;
+    padding: 3rem 0 3rem 0;
+  }
+
+  .questions {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-auto-rows: minmax(0, 1fr);
+    margin: 2rem 15rem 0 15rem;
+  }
+
+  .moreQuestions {
+    padding: 3rem 3rem;
+    font-size: 2.2rem;
+  }
+
+  .que-btn {
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+    min-height: 8rem;
+    max-height: 8rem;
+  }
+
+  .content {
+    line-height: 2rem;
+  }
+
+  .que-queries {
+    display: none;
+  }
+
+  /*  bottom */
   .section-policy {
     position: relative;
     z-index: 4;
@@ -1267,6 +1325,10 @@
   .section-footer {
     position: relative;
     z-index: 5;
+  }
+
+  .second-nav-list {
+    gap: 1rem;
   }
 }
 

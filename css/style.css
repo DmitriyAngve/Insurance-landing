@@ -600,14 +600,20 @@
   }
 }
 
+.moreQuestions-queries {
+  /* display: inline-block; */
+  /* margin-left: 10rem; */
+  text-align: center;
+  margin-top: 4rem;
+}
+
 .moreQuestions {
   display: inline-block;
   background-color: #3462ec;
-  grid-row: 4 / 4;
-  grid-column: -3 / -2;
+  /* grid-row: 4 / 5;
+  grid-column: -3 / -2; */
   padding: 2rem 2rem;
   border-radius: 2.1rem;
-  text-align: center;
   transition: all 0.5s;
   cursor: pointer;
   color: #fff;
@@ -720,8 +726,14 @@
 }
 
 .rustore {
-  width: 4rem;
-  height: 4rem;
+  width: 4.2rem;
+  height: 4.2em;
+}
+
+.app-store {
+  /* width: 4.5em;
+  height: 4.5em; */
+  margin-right: 1rem;
 }
 
 .google-store {
