@@ -1108,11 +1108,11 @@
     min-height: 90rem;
     grid-template-columns: 1fr;
     background-image: linear-gradient(
-      to bottom,
+      to right bottom,
       #ffffff,
-      #f8f7ff,
-      #f1f0ff,
-      #babaeb,
+      #ebeafa,
+      #d7d5f5,
+      #c0c0f0,
       #a8adeb
     );
   }
@@ -1224,8 +1224,52 @@
 
   .section-description {
     margin-top: 60rem;
+    height: 100rem;
+  }
+
+  .description {
+    grid-template-columns: 1fr;
+  }
+
+  .description-text-box {
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+  }
+  .description-img-box {
+    grid-column: 2 / -1;
+  }
+
+  /* .description-smartphone {
+    z-index: 1;
+  } */
+
+  .smartphone-4 {
+    width: 82rem;
+    height: 50rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .section-questions {
+    position: relative;
+    z-index: 5;
+  }
+
+  .question-queries {
+    /* background-color: green; */
+  }
+
+  .section-policy {
+    position: relative;
+    z-index: 4;
+  }
+
+  .section-footer {
+    position: relative;
+    z-index: 5;
   }
 }
+
 /***************************************/
 /* Iphone 14 Pro Max 430px  */
 /**************************************/

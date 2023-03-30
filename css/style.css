@@ -1,5 +1,4 @@
 .container {
-  /* max-width: 100%; */
   margin: 0 auto;
 }
 
@@ -107,7 +106,14 @@
 /* HERO SECTION */
 
 .section-hero {
-  background-color: #edeeff;
+  background-image: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #ebeafa,
+    #d7d5f5,
+    #c0c0f0,
+    #a8adeb
+  );
   padding: 9.6rem 0 9.6rem 0;
 }
 
@@ -444,7 +450,7 @@
   color: #ffffff;
   background-color: #6379f1;
   height: 34rem;
-  z-index: 10;
+  z-index: 5;
 }
 
 .benefits {
@@ -508,6 +514,14 @@
 
 .section-questions {
   height: 112rem;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #ebeafa,
+    #d7d5f5,
+    #c0c0f0,
+    #a8adeb
+  );
 }
 
 .questions-heading {
@@ -617,7 +631,14 @@
 /* MAKING A POLICY */
 
 .section-policy {
-  background-color: #e0e2ff;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #ebeafa,
+    #d7d5f5,
+    #c0c0f0,
+    #a8adeb
+  );
   height: 75rem;
 }
 
