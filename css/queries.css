@@ -792,7 +792,6 @@
 
     .support-bottom {
       margin: 0;
-      /* gap: 1rem; */
     }
 
     .benefits {
@@ -905,7 +904,6 @@
 
     .number {
       background-color: #ffffff;
-
       display: flex;
       justify-content: center;
       align-items: center;
@@ -941,6 +939,10 @@
 
     .line {
       display: none;
+    }
+
+    .number {
+      margin: 0;
     }
 
     .hero-description {
@@ -1016,14 +1018,46 @@
     }
 
     .figure-services {
-      display: none;
+      margin: 0;
+    }
+
+    .services-smallCross {
+      margin: 0;
     }
 
     .smallCross {
+      margin-top: 0;
+      position: absolute;
+      top: 90rem;
+      left: 8rem;
+    }
+
+    .services-yellowCircle {
+    }
+
+    .smallCircle {
+      position: absolute;
+      top: 140rem;
+      left: 8rem;
+    }
+
+    .services-bigCross {
+    }
+
+    .bigCross {
+      position: absolute;
+      top: 160rem;
+      right: 5rem;
+    }
+
+    .services-whiteCircle {
+    }
+
+    .whiteCircle {
       position: absolute;
       margin-top: 0;
-      top: 91rem;
-      left: 4rem;
+      top: 110rem;
+      right: 10rem;
     }
 
     .services-line {
@@ -1056,22 +1090,82 @@
     }
 
     .services-description-second {
-      /* width: 50%; */
     }
 
     .services-description-second {
-      /* width: 50%; */
-    }
-
-    .services-smallCross {
-      margin: 0;
     }
 
     .smartphone-2 {
       margin: -4rem 0 0 0;
     }
 
-    /*  */
+    .section-support {
+      /* display: block; */
+    }
+
+    .support-top {
+      max-height: 90rem;
+      min-height: 90rem;
+      grid-template-columns: 1fr;
+      background-image: linear-gradient(
+        to bottom,
+        #ffffff,
+        #f8f7ff,
+        #f1f0ff,
+        #babaeb,
+        #a8adeb
+      );
+    }
+
+    .support-text-box {
+      grid-column: 2 / -1;
+      grid-row: 2 / -1;
+      /* justify-content: center;
+      align-items: flex-start; */
+      margin: 0 0 30rem 0;
+    }
+
+    .support-img-box {
+      grid-column: 2 / -1;
+    }
+
+    .support-heading {
+      margin: 0;
+    }
+
+    .tertiary-heading {
+      text-align: center;
+      margin: 0 10rem 2rem 10rem;
+    }
+
+    .support-text {
+      text-align: center;
+      margin: 0 15rem 2rem 15rem;
+    }
+
+    .figure-support-queries {
+      display: none;
+    }
+
+    /* .support-smartphone-queries {
+      margin: 10rem;
+    } */
+
+    .smartphone-3 {
+      margin: 0;
+      position: absolute;
+      top: 220rem;
+      right: 30rem;
+    }
+
+    .support-bottom {
+      max-height: 90rem;
+      min-height: 90rem;
+    }
+
+    .section-description {
+      margin-top: 90rem;
+    }
   }
   /***************************************/
   /* Iphone 14 Pro Max 430px  */
