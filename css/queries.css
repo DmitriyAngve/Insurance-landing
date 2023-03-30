@@ -701,6 +701,10 @@
       max-width: 120rem;
     }
 
+    .section-hero {
+      padding: 5.6rem 0 9.6rem 0;
+    }
+
     .hero-img-line {
       display: none;
     }
@@ -710,7 +714,6 @@
     }
 
     .hero-heading {
-      margin-top: -20rem;
       margin-left: -1rem;
       text-align: center;
     }
@@ -902,9 +905,7 @@
 
     .number {
       background-color: #ffffff;
-      /* position: absolute;
-    top: 0;
-    left: 38%; */
+
       display: flex;
       justify-content: center;
       align-items: center;
@@ -917,7 +918,6 @@
       background-color: #ffffff;
       color: #2e46cd;
       font-size: 3.2rem;
-      /* text-align: center; */
     }
   }
 
@@ -931,9 +931,12 @@
     }
 
     .container {
-      /* width: 155%; */
       min-width: 74rem;
       max-width: 120rem;
+    }
+
+    .section-hero {
+      padding: 5.6rem 0 9.6rem 0;
     }
 
     .line {
@@ -941,20 +944,42 @@
     }
 
     .hero-heading {
-      margin-top: -12rem;
-      margin-left: -2rem;
-      text-align: center;
     }
 
     .primary-heading {
-      font-size: 7.2rem;
     }
 
     .hero-description {
       font-size: 2.4rem;
+      margin-top: 2rem;
+    }
+
+    .btn-mobile-queries {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .hero-btn {
+      padding: 1rem 1rem;
+      text-align: center;
+    }
+
+    .btn-blue {
+      margin: 0;
+      width: 55%;
+    }
+
+    .btn-white {
+      width: 55%;
+    }
+
+    .phone {
+      margin-left: 0;
     }
   }
-
   /***************************************/
   /* Iphone 14 Pro Max 430px  */
   /**************************************/
