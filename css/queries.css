@@ -1416,6 +1416,14 @@
     display: block;
   }
 
+  .privacy-queries {
+    display: block;
+  }
+
+  .privacy {
+    display: none;
+  }
+
   /*  */
 }
 
