@@ -1767,7 +1767,8 @@
 
   .phone {
     text-align: center;
-    margin: 1rem 0 0 5rem;
+    /* margin: 1rem 0 0 5rem; */
+    margin: 1rem 0 0 3rem;
   }
 
   .smartphone {
@@ -1788,7 +1789,12 @@
 
   .servicesLine-2 {
     top: -27rem;
-    right: 2rem;
+    right: 4rem;
+  }
+
+  .bigCross {
+    top: 172rem;
+    right: 4rem;
   }
 
   .services-description-second {
@@ -1797,7 +1803,7 @@
 
   .servicesLine {
     top: 40rem;
-    left: 28rem;
+    left: 25rem;
   }
 
   /* Third */
@@ -1813,15 +1819,20 @@
   .smartphone-3 {
     top: 225rem;
     right: 15%;
+    margin-right: -3rem;
+    /* top: 255rem;
+    margin-right: -4rem; */
   }
 
   /* Fourth */
 
   .border-queries-right {
-    margin-left: 4.8rem;
+    /* margin-left: 4.8rem; */
+    margin-left: 3.8rem;
   }
 
   .border-queries-left {
+    margin-right: 6rem;
     margin-right: 8rem;
   }
 
@@ -1830,7 +1841,8 @@
   .description-text-box {
     margin: -6rem 2rem 0 0;
     padding: 3rem;
-    width: 56%;
+    /* width: 56%; */
+    width: 50rem;
     gap: 2rem;
   }
 
@@ -1841,6 +1853,10 @@
   .description-text {
     font-size: 2rem;
   }
+  .questions {
+    font-size: 1.6rem;
+  }
+  /*  */
 
   /* Footer */
 
@@ -1854,6 +1870,10 @@
 
   .footer-store-icons {
     margin: 5rem 0 0 0;
+  }
+
+  .social-icons {
+    margin-right: -2rem;
   }
 
   .footer-nav-col-primary {
