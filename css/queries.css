@@ -1431,109 +1431,263 @@
 /* Iphone 14 Pro Max 430px  */
 /**************************************/
 @media (max-width: 26.875em) {
-  html {
-    font-size: 62.5%;
-  }
-
   .container {
     min-width: 43rem;
-    max-width: 120rem;
-  }
-
-  .header {
-    height: 15rem;
-  }
-
-  .section-hero {
-    min-height: 92rem;
-    max-height: 180rem;
+    max-width: 80rem;
   }
 
   .logo {
-    height: 12rem;
-  }
-
-  .main-nav {
-    top: 15rem;
-    height: 50rem;
+    height: 7.5rem;
+    margin-left: 2.5rem;
   }
 
   .nav-cta {
-    font-size: 4.8rem;
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  .btn-mobile-nav {
+    margin-right: 2.5rem;
   }
 
   .hero {
     grid-template-columns: 1fr;
   }
 
-  .icon-mobile-nav {
-    transform: scale(3);
-  }
-
-  .blueLine {
-    display: none;
-  }
-
   .hero-text-box {
-    margin: 3rem 5rem 0 5rem;
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+    margin: -4rem 1rem 0 0;
+  }
+
+  .hero-img-box {
+    grid-column: 2 / -1;
+    height: 24rem;
   }
 
   .hero-heading {
-    text-align: center;
-    /* margin: 1rem 2rem 2rem 2rem; */
-  }
-
-  .primary-heading {
-    font-size: 12rem;
+    margin: 0 4rem 0 0;
   }
 
   .hero-description {
-    font-size: 4.2rem;
-    margin: 3rem 5rem 3rem 5rem;
-  }
-
-  .hero-img-line {
-    display: none;
-  }
-
-  .main-nav-list {
-    font-size: 4.2rem;
-    gap: 2.5rem;
+    line-height: 1.2;
   }
 
   .btn-mobile-queries {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav-btn {
-    border: 3px solid #364abb;
-    min-width: 45rem;
-    max-width: 45rem;
+    margin: -6rem 0 0 0;
+    gap: 1rem;
   }
 
   .hero-btn {
-    font-size: 3.2rem;
-    min-width: 30rem;
+    padding: 1rem 1rem;
+    margin: 1rem -1rem 0 0;
+    font-size: 2.8rem;
   }
 
-  .btn-blue {
-    margin: 1rem;
+  .bigTriangle {
+    top: 10rem;
+    right: 1rem;
+    width: 12%;
   }
 
-  .btn-white {
-    margin: 1rem;
+  .cross {
+    display: none;
+  }
+
+  .triangle {
+    top: 33rem;
+    left: 1rem;
+    width: 8%;
   }
 
   .phone {
-    margin-left: 55rem;
+    text-align: center;
+    margin: 1rem 0 0 8rem;
   }
 
   .smartphone {
-    height: 50rem;
-    width: 32rem;
-    transform: scale(2.5);
+    width: 27rem;
+    height: 37rem;
+    /* margin-bottom: -16rem; */
+    top: -5rem;
+    left: 3rem;
   }
+
+  .smallCross {
+    top: 92rem;
+    left: 3rem;
+  }
+
+  /* SERVICES */
+
+  .services {
+    height: 93rem;
+  }
+
+  .secrvices-flex-queries {
+    gap: 1rem;
+  }
+
+  .services-heading {
+    margin: 4rem 0 0 0;
+  }
+
+  .secondary-heading {
+    padding: 0;
+  }
+
+  .services-description-first {
+    font-size: 2.2rem;
+    margin: 5rem 0 0 0;
+    /* padding: 1rem 0 1rem 0; */
+  }
+
+  .services-description-second {
+    font-size: 2.2rem;
+    margin: 5rem 0 0 0;
+    /* padding: 1rem 0 1rem 0; */
+  }
+
+  .services-line {
+    position: absolute;
+  }
+
+  .servicesLine {
+    position: inherit;
+    top: 41rem;
+    left: 35rem;
+  }
+
+  .services-line-queries {
+    display: block;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+
+  .servicesLine-2 {
+    position: inherit;
+    top: -25rem;
+    right: 0;
+  }
+
+  .smartphone-2 {
+    width: 40rem;
+    height: 42rem;
+    margin: 0;
+  }
+
+  .bigCross {
+    top: 175rem;
+    right: 5rem;
+  }
+
+  .whiteCircle {
+    top: 116rem;
+    right: 3rem;
+  }
+
+  .smallCircle {
+    top: 134rem;
+    left: 3rem;
+  }
+
+  /* SUPPORT */
+
+  .support-text-box {
+    margin: 0 0 50rem 0;
+  }
+
+  .tertiary-heading {
+    margin: 0;
+    /* font-size: 5.2rem; */
+    padding: 2rem;
+  }
+
+  .support-text {
+    margin: 0 7rem 0 7rem;
+  }
+
+  .smartphone-3 {
+    top: 225rem;
+    right: 17%;
+  }
+
+  /* BENEFITS */
+
+  .border-queries-right {
+    margin-left: 7.8rem;
+  }
+
+  .border-queries-left {
+    margin-right: 10rem;
+  }
+
+  /* DESCRIPTION */
+
+  .section-description {
+    margin: 0;
+    padding: 0;
+    min-height: 93rem;
+    max-height: 100rem;
+  }
+
+  .description {
+    margin: 60rem 0 0 0;
+    /* min-height: 93rem;
+    max-height: 100rem; */
+  }
+
+  .description-text-box {
+    margin: -6rem 2rem 0 0;
+    padding: 3rem;
+    width: 60%;
+    gap: 2rem;
+  }
+
+  .description-heading {
+    margin: 10rem 0 2rem 0;
+  }
+
+  .description-text {
+    margin: 0;
+  }
+
+  .description-img-box {
+    margin: 0;
+  }
+
+  .description-smartphone {
+    position: relative;
+    right: 20rem;
+  }
+
+  /* QUESTIONS */
+
+  .section-questions {
+    margin: 0;
+  }
+
+  .questions-heading {
+    padding: 2rem 0 2rem 0;
+  }
+
+  .questions {
+    margin: 1rem 10rem 0 10rem;
+  }
+
+  .que-btn {
+    min-height: 12rem;
+    max-height: 12rem;
+  }
+
+  .moreQuestions-queries {
+    margin: 4rem 2rem 0 2rem;
+  }
+
+  .moreQuestions {
+    font-size: 1.6rem;
+  }
+
+  /* 
+   */
 }

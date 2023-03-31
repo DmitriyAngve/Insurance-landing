@@ -307,6 +307,10 @@
   text-align: right;
 }
 
+.services-line-queries {
+  display: none;
+}
+
 .services-heading {
   color: #ffffff;
   text-align: right;
