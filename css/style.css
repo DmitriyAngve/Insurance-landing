@@ -107,7 +107,7 @@
 
 .section-hero {
   background-image: linear-gradient(
-    to right bottom,
+    to left bottom,
     #ffffff,
     #ebeafa,
     #d7d5f5,
@@ -172,13 +172,13 @@
 
 .btn-blue:hover {
   color: #3462ec;
-  background-color: #edeeff;
+  background-color: #d7d5f5;
 }
 
 .btn-blue:link,
 .btn-blue:focus {
   color: #3462ec;
-  background-color: #edeeff;
+  background-color: #d7d5f5;
 }
 
 .btn-white {
@@ -190,14 +190,14 @@
 
 .btn-white:hover {
   color: #3462ec;
-  background-color: #edeeff;
+  background-color: #d7d5f5;
   border: 0.15rem solid #3462ec;
 }
 
 .btn-white:link,
 .btn-white:focus {
   color: #3462ec;
-  background-color: #edeeff;
+  background-color: #d7d5f5;
   border: 0.15rem solid #3462ec;
 }
 
@@ -252,7 +252,14 @@
 
 .section-services {
   height: 97rem;
-  background: #6379f1;
+  background-image: linear-gradient(
+    to bottom,
+    #6379f1,
+    #8692f6,
+    #a5adf9,
+    #c3c7fd,
+    #e0e2ff
+  );
 }
 
 .services {
@@ -280,7 +287,6 @@
 }
 
 .smartphone-2 {
-  /* from figma : 685px * 720px */
   width: 68.5rem;
   height: 72rem;
 }
@@ -367,13 +373,14 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
+
   background-image: linear-gradient(
-    to bottom,
+    to left bottom,
     #ffffff,
-    #f8f7ff,
-    #f1f0ff,
-    #e9e9ff,
-    #e0e2ff
+    #ebeafa,
+    #d7d5f5,
+    #c0c0f0,
+    #a8adeb
   );
 }
 
@@ -638,7 +645,7 @@
 
 .section-policy {
   background-image: linear-gradient(
-    to bottom,
+    to left bottom,
     #ffffff,
     #ebeafa,
     #d7d5f5,
@@ -748,4 +755,8 @@
 
 .footer-logo-icon {
   width: 7.5rem;
+}
+
+.footer-number-queries {
+  display: none;
 }
