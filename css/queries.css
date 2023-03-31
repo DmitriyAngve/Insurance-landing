@@ -1681,7 +1681,7 @@
   }
 
   .content {
-    line-height: 1.8rem;
+    /* line-height: 1.8rem; */
     padding: 2rem 1rem 1rem 1rem;
   }
 
@@ -1731,10 +1731,10 @@
   }
 
   /* Grid for questions */
-  .mobile-questions-helper {
+  /* .mobile-questions-helper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     grid-auto-rows: minmax(0, 1fr);
-  }
+  } */
 }

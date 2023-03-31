@@ -524,7 +524,7 @@
 /* QUESTIONS SECTION */
 
 .section-questions {
-  height: 112rem;
+  /* height: 112rem; */
   background-image: linear-gradient(
     to bottom,
     #ffffff,
@@ -612,10 +612,8 @@
 }
 
 .moreQuestions-queries {
-  /* display: inline-block; */
-  /* margin-left: 10rem; */
   text-align: center;
-  margin-top: 4rem;
+  padding: 4rem;
 }
 
 .moreQuestions {
