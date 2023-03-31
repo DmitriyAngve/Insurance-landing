@@ -1151,8 +1151,6 @@
   .support-text-box {
     grid-column: 2 / -1;
     grid-row: 2 / -1;
-    /* justify-content: center;
-      align-items: flex-start; */
     margin: 0 0 30rem 0;
   }
 
@@ -1508,7 +1506,7 @@
   .smartphone {
     width: 27rem;
     height: 37rem;
-    /* margin-bottom: -16rem; */
+
     top: -5rem;
     left: 3rem;
   }
@@ -1539,13 +1537,11 @@
   .services-description-first {
     font-size: 2.2rem;
     margin: 5rem 0 0 0;
-    /* padding: 1rem 0 1rem 0; */
   }
 
   .services-description-second {
     font-size: 2.2rem;
     margin: 5rem 0 0 0;
-    /* padding: 1rem 0 1rem 0; */
   }
 
   .services-line {
@@ -1554,8 +1550,8 @@
 
   .servicesLine {
     position: inherit;
-    top: 41rem;
-    left: 35rem;
+    top: 42rem;
+    left: 32rem;
   }
 
   .services-line-queries {
@@ -1566,8 +1562,8 @@
 
   .servicesLine-2 {
     position: inherit;
-    top: -25rem;
-    right: 0;
+    top: -27rem;
+    right: 5rem;
   }
 
   .smartphone-2 {
@@ -1599,7 +1595,7 @@
 
   .tertiary-heading {
     margin: 0;
-    /* font-size: 5.2rem; */
+
     padding: 2rem;
   }
 
@@ -1633,8 +1629,6 @@
 
   .description {
     margin: 60rem 0 0 0;
-    /* min-height: 93rem;
-    max-height: 100rem; */
   }
 
   .description-text-box {
@@ -1729,12 +1723,146 @@
     margin-top: 1rem;
     font-size: 1.6rem;
   }
+}
 
-  /* Grid for questions */
-  /* .mobile-questions-helper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-auto-rows: minmax(0, 1fr);
-  } */
+/***************************************/
+/* Iphone 12 Pro 390px  */
+/**************************************/
+@media (max-width: 24.375em) {
+  .container {
+    min-width: 39rem;
+    max-width: 70rem;
+  }
+
+  .logo {
+    height: 7rem;
+    margin-left: 2rem;
+  }
+
+  .btn-mobile-nav {
+    margin-right: 2rem;
+  }
+
+  .nav-cta {
+    font-size: 2.4rem;
+  }
+
+  .primary-heading {
+    font-size: 5.8rem;
+  }
+
+  .hero-description {
+    font-size: 2.2rem;
+  }
+
+  .hero-btn {
+    padding: 1rem 1rem;
+    margin: 1rem -1rem 0 0;
+    font-size: 2.2rem;
+  }
+
+  .btn-mobile-queries {
+    gap: 0.5rem;
+  }
+
+  .phone {
+    text-align: center;
+    margin: 1rem 0 0 5rem;
+  }
+
+  .smartphone {
+    width: 28rem;
+    height: 38rem;
+  }
+
+  /* Second */
+
+  .secondary-heading {
+    font-size: 5.8rem;
+  }
+
+  .smallCross {
+    top: 88rem;
+    left: 1rem;
+  }
+
+  .servicesLine-2 {
+    top: -27rem;
+    right: 2rem;
+  }
+
+  .services-description-second {
+    margin: 2rem 0 0 0;
+  }
+
+  .servicesLine {
+    top: 40rem;
+    left: 28rem;
+  }
+
+  /* Third */
+
+  .tertiary-heading {
+    font-size: 5.8rem;
+  }
+
+  .support-text {
+    font-size: 2.2rem;
+  }
+
+  .smartphone-3 {
+    top: 225rem;
+    right: 15%;
+  }
+
+  /* Fourth */
+
+  .border-queries-right {
+    margin-left: 4.8rem;
+  }
+
+  .border-queries-left {
+    margin-right: 8rem;
+  }
+
+  /* Fifth */
+
+  .description-text-box {
+    margin: -6rem 2rem 0 0;
+    padding: 3rem;
+    width: 56%;
+    gap: 2rem;
+  }
+
+  .description-heading {
+    font-size: 5.2rem;
+  }
+
+  .description-text {
+    font-size: 2rem;
+  }
+
+  /* Footer */
+
+  .footer-logo {
+    margin: 0;
+  }
+
+  .footer-logo-icon {
+    width: 8rem;
+  }
+
+  .footer-store-icons {
+    margin: 5rem 0 0 0;
+  }
+
+  .footer-nav-col-primary {
+    font-size: 1.6rem;
+    margin: -3rem 0 0 3rem;
+  }
+
+  .footer-nav-col-secondary {
+    font-size: 1.6rem;
+    margin: 0rem 0 0 6rem;
+  }
 }
