@@ -1362,6 +1362,7 @@
 
   .store-icons {
     padding: 0;
+    margin-right: 16rem;
     gap: 2rem;
   }
 
@@ -1389,17 +1390,22 @@
   .social-icons {
     justify-content: center;
     gap: 0;
-    margin: 3rem 0 0 5rem;
+    margin-right: 10rem;
     transform: scale(1.2);
   }
 
   .footer-nav-col-primary {
     font-size: 2.4rem;
-    margin-left: 5rem;
+    margin: 3rem 0 0 9rem;
+  }
+
+  .second-nav-list {
+    gap: 2.5rem;
   }
 
   .footer-nav-col-secondary {
     font-size: 2.4rem;
+    margin: 3rem 0 0 14rem;
   }
 
   .footer-number {
