@@ -646,14 +646,14 @@
 /* MAKING A POLICY */
 
 .section-policy {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to left bottom,
     #ffffff,
     #ebeafa,
     #d7d5f5,
     #c0c0f0,
     #a8adeb
-  );
+  ); */
   /* height: 75rem; */
 }
 
@@ -672,7 +672,12 @@
   min-height: 100%;
   min-width: 100%;
   overflow: hidden;
+  /* height: 470px; */
 }
+
+/* .mort-welcome-main {
+  padding: 57px 38px;
+} */
 
 /* FOOTER SECTION */
 
