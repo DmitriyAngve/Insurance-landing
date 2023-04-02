@@ -596,9 +596,13 @@
   animation: slideDown 0.1s ease;
 }
 
-.que-btn:focus + .content {
+.show {
   display: block;
 }
+
+/* .que-btn:focus + .content {
+  display: block;
+} */
 
 @keyframes slideDown {
   from {
