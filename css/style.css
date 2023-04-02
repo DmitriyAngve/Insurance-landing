@@ -600,10 +600,6 @@
   display: block;
 }
 
-/* .que-btn:focus + .content {
-  display: block;
-} */
-
 @keyframes slideDown {
   from {
     opacity: 0;
@@ -623,8 +619,6 @@
 .moreQuestions {
   display: inline-block;
   background-color: #3462ec;
-  /* grid-row: 4 / 5;
-  grid-column: -3 / -2; */
   padding: 2rem 2rem;
   border-radius: 2.1rem;
   transition: all 0.5s;
@@ -649,18 +643,6 @@
 
 /* MAKING A POLICY */
 
-.section-policy {
-  /* background-image: linear-gradient(
-    to left bottom,
-    #ffffff,
-    #ebeafa,
-    #d7d5f5,
-    #c0c0f0,
-    #a8adeb
-  ); */
-  /* height: 75rem; */
-}
-
 /* Calculator */
 
 .policy-container {
@@ -676,12 +658,7 @@
   min-height: 100%;
   min-width: 100%;
   overflow: hidden;
-  /* height: 470px; */
 }
-
-/* .mort-welcome-main {
-  padding: 57px 38px;
-} */
 
 /* FOOTER SECTION */
 
@@ -766,8 +743,6 @@
 }
 
 .app-store {
-  /* width: 4.5em;
-  height: 4.5em; */
   margin-right: 1rem;
 }
 
