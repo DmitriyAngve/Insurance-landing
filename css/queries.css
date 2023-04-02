@@ -321,6 +321,10 @@
 /**************************************/
 
 @media (max-width: 84em) {
+  .container {
+    /* max-width: 120rem; */
+  }
+
   .main-nav-list {
     gap: 2.5rem;
   }
@@ -492,7 +496,7 @@
 @media (max-width: 71.25em) {
   .container {
     /* width: 106%; */
-    min-width: 114rem;
+    /* min-width: 114rem; */
     max-width: 140rem;
   }
 
@@ -568,9 +572,8 @@
 
 @media (max-width: 68.75em) {
   .container {
-    /* width: 115%; */
-    min-width: 110rem;
-    max-width: 135rem;
+    /* min-width: 110rem;
+    max-width: 135rem; */
   }
 
   .line {
@@ -672,9 +675,8 @@
 
 @media (max-width: 66.25em) {
   .container {
-    /* width: 116%; */
-    min-width: 106rem;
-    max-width: 140rem;
+    /* min-width: 106rem;
+    max-width: 140rem; */
   }
 
   .main-nav-list {
@@ -729,9 +731,8 @@
   }
 
   .container {
-    /* width: 155%; */
-    min-width: 94.4rem;
-    max-width: 120rem;
+    /* min-width: 94.4rem;
+    max-width: 120rem; */
   }
 
   .section-hero {
@@ -980,7 +981,7 @@
 
   .container {
     min-width: 74rem;
-    max-width: 120rem;
+    /* max-width: 120rem; */
   }
 
   .section-hero {
@@ -1431,7 +1432,7 @@
 @media (max-width: 26.875em) {
   .container {
     min-width: 43rem;
-    max-width: 80rem;
+    /* max-width: 80rem; */
   }
 
   .logo {
@@ -1552,8 +1553,8 @@
   .servicesLine {
     position: inherit;
     top: 42rem;
-    /* left: 32rem; */
-    left: 25rem;
+
+    left: 23rem;
   }
 
   .services-line-queries {
@@ -1633,8 +1634,8 @@
   .section-description {
     margin: 0;
     padding: 0;
-    min-height: 93rem;
-    max-height: 100rem;
+    /* min-height: 93rem;
+    max-height: 100rem; */
   }
 
   .description {
@@ -1645,7 +1646,7 @@
     /* margin: -6rem 2rem 0 0; */
     /* padding: 3rem; */
     /* width: 60%; */
-    margin: 0 40rem 6rem 2rem;
+    /* margin: 0 40rem 6rem 2rem; !!!!!!! */
     gap: 2rem;
   }
 
@@ -1742,8 +1743,8 @@
 /**************************************/
 @media (max-width: 24.375em) {
   .container {
-    min-width: 39rem;
-    max-width: 50rem;
+    /* width: 39rem; */
+    /* max-width: 50rem; */
   }
 
   .logo {
@@ -1817,7 +1818,7 @@
 
   .servicesLine {
     top: 40rem;
-    left: 25rem;
+    left: 21rem;
     transform: scale(0.8);
   }
 
@@ -1852,15 +1853,16 @@
   /* Fifth */
 
   .description-text-box {
-    margin: -6rem 2rem 0 0;
-    padding: 3rem;
+    /* margin: -6rem 2rem 0 0; */
+    /* padding: 3rem; */
     /* width: 56%; */
-    width: 50rem;
+    width: 330px;
     gap: 2rem;
   }
 
   .description-heading {
     font-size: 5.2rem;
+    margin: 3rem 0 2rem 0;
   }
 
   .description-text {
@@ -1904,12 +1906,20 @@
 }
 
 /***************************************/
+/* 375px  */
+/**************************************/
+@media (max-width: 23.4375em) {
+  .description-text-box {
+  }
+}
+
+/***************************************/
 /* 350px  */
 /**************************************/
 @media (max-width: 21.875em) {
   .container {
-    min-width: 22rem;
-    max-width: 50rem;
+    /* min-width: 22rem;
+    max-width: 50rem; */
   }
 
   .border-queries-right {
