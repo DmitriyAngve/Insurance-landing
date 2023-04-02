@@ -897,7 +897,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.6s ease-in;
+    transition: all 0.3s ease-in;
 
     /* Hidden navigation */
     /* display: none; */
@@ -1827,13 +1827,11 @@
   /* Fourth */
 
   .border-queries-right {
-    /* margin-left: 4.8rem; */
     margin-left: 3.8rem;
   }
 
   .border-queries-left {
     margin-right: 6rem;
-    /* margin-right: 8rem; */
   }
 
   /* Fifth */
