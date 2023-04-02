@@ -654,7 +654,24 @@
     #c0c0f0,
     #a8adeb
   );
-  height: 75rem;
+  /* height: 75rem; */
+}
+
+/* Calculator */
+
+.policy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ppdwiIpoteka {
+  width: 100%;
+  border: none;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
 }
 
 /* FOOTER SECTION */
